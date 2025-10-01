@@ -20,20 +20,24 @@ An interactive toolkit for exploring barrier themes and resources in the PDATF p
 ### Install dependencies
 ```bash
 npm install
+```
 
-Run locally
-
+#### Run locally
+```bash
 npm run dev
+```
 
-Build for production
-
+### Build for production
+```bash
 npm run build
+```
 
-Preview production build
-
+### Preview production build
+```bash
 npm run preview
+```
 
-Deployment
+### Deployment
 
 This project is configured for deployment on Netlify.
 	•	Build command: npm run build
@@ -43,7 +47,7 @@ For single-page app routing, include a _redirects file in public/ with:
 
 /*  /index.html  200
 
-Environment Variables
+### Environment Variables
 
 At build time, the script scripts/build-data.mjs fetches data from published Google Sheets.
 
@@ -52,7 +56,7 @@ Set these environment variables in Netlify or your local .env file:
 	•	BARRIER_THEMES_CSV_URL
 	•	BARRIERS_CSV_URL
 
-License
+### License
 
 MIT License
 
