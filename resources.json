@@ -1,0 +1,2337 @@
+[
+  {
+    "id": "ai-insights-generative-ai-2025",
+    "title": "AI Insights: Generative AI",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-generative-ai-html",
+    "description": "UK\u2019s Government Digital Service explains that generative AI is a subset of artificial intelligence able to produce text, images or other outputs using probabilistic models trained on large datasets.  The guidance describes how large language models tokenise and embed input text before using transformer networks to generate outputs, and it stresses that these models replicate patterns without true understanding or sentience\u3010263830693408424\u2020L129-L164\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "legacy-systems-and-fragmented-it",
+      "lack-of-integration-across-platforms",
+      "limited-scalability-or-flexibility-of-solutions"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "generative-ai",
+      "large-language-models",
+      "ai-basics",
+      "tokenisation",
+      "embeddings"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-prompt-engineering-2025",
+    "title": "AI Insights: Prompt Engineering",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-prompt-engineering-html",
+    "description": "This AI Insights guidance introduces prompt engineering \u2013 the practice of constructing clear, structured prompts for large language models.  It compares prompts to recipes, emphasising that the data, examples and instructions we provide shape the output, and it explains that well\u2011designed prompts improve LLM accuracy and safety while vague prompts risk unexpected results\u3010987026297617710\u2020L147-L168\u3011.  The document notes that prompt engineering must prioritise safety by sanitising queries to prevent harmful or unsafe instructions\u3010987026297617710\u2020L157-L179\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "prompt-engineering",
+      "large-language-models",
+      "safe-ai",
+      "llm-instructions",
+      "ai-guidance"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "seven-lessons-in-ai-2025",
+    "title": "Seven lessons in AI (Project Magazine)",
+    "url": "https://www.apm.org.uk/blog/seven-lessons-in-artificial-intelligence/",
+    "description": "Association for Project Management author Thomas Bloor distils lessons from organisations experimenting with AI.  He advises leaders to champion AI adoption, run experiments to learn quickly, control risk and evaluate tools, refine solutions through feedback loops, scale successful pilots and invest in skills so that teams are comfortable using AI\u3010647901680357378\u2020L1216-L1323\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "poor-collaboration-and-knowledge-sharing"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-adoption",
+      "project-management",
+      "lessons-learned",
+      "change-management",
+      "skills"
+    ],
+    "date": "2025-09-17"
+  },
+  {
+    "id": "vision-for-data-built-environment-2025",
+    "title": "A Vision for Data in the Built Environment",
+    "url": "https://www.bpie.eu/publication/a-vision-for-data-in-the-built-environment-transforming-sustainability-reporting/",
+    "description": "The Circular Buildings Coalition\u2019s report notes that sustainability reporting in the built environment is fragmented by differing data requirements across regulations, investors and rating schemes.  It calls for a common data dictionary, a federated data model and digital building logbooks to reduce reporting burdens, improve investment decisions and accelerate sustainability; aligning regulatory data requests and investing in digital solutions are among its key recommendations\u3010465574845491609\u2020L40-L89\u3011.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "lack-of-common-data-standards",
+      "siloed-or-inaccessible-data",
+      "poor-data-quality-or-governance"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "data-governance",
+      "sustainability-reporting",
+      "built-environment",
+      "digital-logbooks",
+      "interoperability"
+    ],
+    "date": "2025-03-06"
+  },
+  {
+    "id": "ai-automation-construction-citb-2021",
+    "title": "A Challenge and an Opportunity: Artificial Intelligence and Automation in the Construction Industry",
+    "url": "https://www.citb.co.uk/about-citb/what-we-do/research-insight/artificial-intelligence-and-automation/",
+    "description": "The Construction Industry Training Board\u2019s 2021 research report argues that construction remains a largely manual, low\u2011automation sector and that digital adoption offers significant productivity gains.  It urges industry leaders to agree on a shared definition of digital construction, share best practice and invest in digital skills so that organisations can exploit AI and automation; without aligned leadership the sector risks missing critical opportunities in the coming years\u301025624925981092\u2020L168-L194\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "lack-of-leadership-buy-in-and-alignment"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "construction",
+      "automation",
+      "digital-skills",
+      "industry-report",
+      "leadership"
+    ],
+    "date": "2021-01-01"
+  },
+  {
+    "id": "abc-ai-tech-report-2024",
+    "title": "ABC AI Tech Report",
+    "url": "https://aec-business.com/construction-and-ai-what-contractors-need-to-know-from-abcs-new-report/",
+    "description": "Associated Builders and Contractors\u2019 fourth technology report outlines how artificial intelligence can enhance efficiency and innovation in construction.  The report combines an AI resource guide, essays on AI\u2019s impact and a Hensel Phelps case study showing how the contractor used the Track3D platform to improve project efficiency; industry leaders stress that the report helps contractors learn about AI and machine learning to improve safety, quality and profitability\u3010647128200895249\u2020L97-L152\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "legacy-systems-and-fragmented-it",
+      "lack-of-integration-across-platforms",
+      "limited-scalability-or-flexibility-of-solutions"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "construction",
+      "ai-resources",
+      "case-study",
+      "technology-report",
+      "industry-guidance"
+    ],
+    "date": "2024-10-02"
+  },
+  {
+    "id": "ai-as-artificial-ignorance-2025",
+    "title": "AI as Artificial Ignorance",
+    "url": "https://www.researchgate.net/publication/378373583_AI_as_Artificial_Ignorance",
+    "description": "Bent Flyvbjerg\u2019s working paper argues that current AI resembles \u2018artificial ignorance\u2019 because it can mix true and false statements, producing persuasive output without regard for truth.  He compares AI to \u2018bullshit,\u2019 noting that both prioritise rhetoric over accuracy, and warns that users must be sceptical and verify AI outputs rather than accepting them at face value\u3010668124866630108\u2020L124-L139\u3011.  The paper calls for ethical governance and rigorous validation of AI systems.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Business"
+    ],
+    "tags": [
+      "ai-ethics",
+      "accuracy",
+      "bias",
+      "skepticism",
+      "governance"
+    ],
+    "date": "2025-02-01"
+  },
+  {
+    "id": "adopt-deeper-use-of-ai-bit-2025",
+    "title": "Adopt: Understanding what drives and inhibits deeper use of AI",
+    "url": "https://www.bi.team/wp-content/uploads/2025/09/BIT-AI-ADOPT-2025.pdf",
+    "description": "Behavioural Insights Team researchers frame AI adoption as a continuum from no adoption to shallow and deep use.  They argue that adoption is a behavioural process influenced by motivation, capability and trust; barriers such as low salience of benefits, status\u2011quo bias, friction, cognitive load and psychological threats inhibit adoption, while enablers include implementation intentions, framing benefits concretely, harnessing social norms, operational readiness and transparency\u3010631660795494161\u2020L208-L251\u3011\u3010631660795494161\u2020L305-L349\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "poor-collaboration-and-knowledge-sharing"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-adoption",
+      "behavioural-science",
+      "motivation",
+      "capability",
+      "trust"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "agentic-ai-new-frontier-genai-2024",
+    "title": "Agentic AI \u2013 the new frontier in GenAI: An executive playbook",
+    "url": "https://www.pwc.com/m1/en/publications/agentic-ai-the-new-frontier-in-genai.html",
+    "description": "PwC\u2019s executive playbook explains that agentic AI \u2013 systems where multiple AI agents collaborate autonomously \u2013 is poised to make a major economic impact and transform industries.  It highlights key features of agentic AI such as autonomy, goal\u2011oriented behaviour, environment interaction, learning capability, workflow optimisation and multi\u2011agent conversation, and argues that organisations should leverage multimodal GenAI while ensuring ethical safeguards to boost efficiency, customer experience and revenue growth\u3010449400178477231\u2020L391-L440\u3011\u3010450617757044478\u2020L58-L114\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "unclear-accountability-for-digital-risk",
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "agentic-ai",
+      "genai",
+      "executive-playbook",
+      "multi-agent",
+      "ethical-ai"
+    ],
+    "date": "2024-11-01"
+  },
+  {
+    "id": "unlocking-cultural-readiness-for-ai-2025",
+    "title": "Unlocking Cultural Readiness for AI",
+    "url": "https://www.linkedin.com/pulse/unlocking-cultural-readiness-ai-alexander-budzier-m5moe/",
+    "description": "Alexander Budzier\u2019s LinkedIn article argues that AI transformations succeed or fail based on organisational culture rather than algorithms.  He emphasises that culture shifts when behaviours, structures and incentives change, and that AI adoption requires new decision\u2011making structures, rapid prototyping and empowered teams\u3010733524845409353\u2020L5-L31\u3011.  The article stresses that trust \u2013 built through credibility, reliability, intimacy and shared goals \u2013 explains much of the variation in digital transformation success and encourages leaders to assess trust deficits and communicate clearly to close them\u3010733524845409353\u2020L59-L89\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-leadership-buy-in-and-alignment",
+      "lack-of-shared-goals-and-performance-indicators",
+      "unclear-responsibility-and-accountability"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "organisational-culture",
+      "ai-transformation",
+      "trust",
+      "leadership",
+      "change-management"
+    ],
+    "date": "2025-09-15"
+  },
+  {
+    "id": "ai-augmented-workforce-2025",
+    "title": "AI Augmented Workforce: A Leader\u2019s Guide to Unleashing Human Potential",
+    "url": "https://scaledagileframework.com/ai-augmented-workforce-a-leaders-guide-to-unleashing-human-potential",
+    "description": "Scaled Agile Framework\u2019s guidance defines an AI\u2011augmented workforce as employees using approved AI tools to reduce repetitive tasks, improve quality, drive innovation and focus on creative work; these benefits require employees to have authority, resources and training\u3010466592540908057\u2020L84-L97\u3011.  \nThe article explains how AI improves job satisfaction and productivity across roles such as Scrum masters, product managers and portfolio leaders, and outlines five steps for leaders to build an AI\u2011augmented workforce\u2014identify use cases, ensure responsible AI use, measure impact, invest in upskilling and foster a culture of innovation\u2014while warning against burnout, shadow AI and over\u2011reliance on AI without human oversight\u3010466592540908057\u2020L112-L154\u3011\u3010466592540908057\u2020L270-L329\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "lack-of-ethical-governance"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-augmented-workforce",
+      "agile",
+      "training",
+      "responsible-ai",
+      "culture"
+    ],
+    "date": "2025-03-12"
+  },
+  {
+    "id": "ai-in-epc-white-paper-2024",
+    "title": "AI in EPC Industry White Paper",
+    "url": "https://example.com/ai-in-epc-white-paper",
+    "description": "The International Advisory Partners\u2019 white paper describes how artificial intelligence enhances efficiency, accuracy and safety throughout the engineering, procurement and construction (EPC) project lifecycle.  \nIt highlights applications such as AI\u2011driven design optimisation, predictive risk analytics, construction\u2011site monitoring with drones and computer vision, AI\u2011based supply\u2011chain optimisation, defect detection and lifecycle asset management, and includes case studies of Bentley Systems\u2019 GenerativeDesign tool and Komatsu\u2019s SmartConstruction platform\u3010259198907776963\u2020L6-L82\u3011\u3010259198907776963\u2020L85-L170\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "legacy-systems-and-fragmented-it",
+      "lack-of-integration-across-platforms",
+      "limited-scalability-or-flexibility-of-solutions"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "epc",
+      "construction",
+      "ai-applications",
+      "design-optimisation",
+      "case-study"
+    ],
+    "date": "2024-01-01"
+  },
+  {
+    "id": "ai-in-built-world-investment-2024",
+    "title": "AI in the Built World: Investment in AI",
+    "url": "https://aoresearch.com/insights/ai-in-the-built-world-investment-in-ai",
+    "description": "A/O Research\u2019s investment report analyses venture funding and adoption trends for AI in the built environment.  \nIt notes that AI\u2011enabled built\u2011world start\u2011ups in Europe and North America raised US$18.6\u2009billion over the past decade\u2014with $8.6\u2009billion in the last two years\u2014and that London leads by deal count while the Bay Area leads by capital invested; climate technology, ESG reporting and energy assets are the fastest\u2011growing AI applications alongside AEC software, smart buildings and real\u2011estate inspection\u3010162411253002142\u2020L93-L137\u3011.  \nThe report highlights that generative\u2011AI applications are emerging but face challenges due to heterogeneous, context\u2011specific data and that digitisation and automation remain short\u2011term priorities, while AI ecosystems of robotics, IoT, NLP and generative models enable digital transformation and decarbonisation across the built world\u3010162411253002142\u2020L49-L71\u3011\u3010162411253002142\u2020L126-L137\u3011.",
+    "barrier_category": "funding-and-investment",
+    "barriers": [
+      "lack-of-funding-or-investment",
+      "high-cost-of-implementation",
+      "uncertain-return-on-investment"
+    ],
+    "personas": [
+      "Business"
+    ],
+    "tags": [
+      "investment",
+      "built-environment",
+      "venture-funding",
+      "climate-tech",
+      "decarbonisation"
+    ],
+    "date": "2024-09-01"
+  },
+  {
+    "id": "ai-insights-agentic-ai-2025",
+    "title": "AI Insights: Agentic AI",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-agentic-ai-html",
+    "description": "This AI Insights guidance defines agentic AI as autonomous systems composed of specialised agents enhanced by large language models that can plan, select tools and execute tasks.  \nIt explains that agentic systems bring adaptability, extensibility, dynamic routing and improved automation but also create risks such as loss of human oversight, premature deployment, architectural complexity, volatile frameworks, inconsistent outputs, opaque decision\u2011making and high development costs\u3010629944452317335\u2020L124-L166\u3011\u3010629944452317335\u2020L317-L404\u3011.  \nThe guidance recommends mitigations including modular composition, interface contracts, explainable AI with audit trails, thorough testing, profiling and alignment with business needs\u3010629944452317335\u2020L404-L563\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "weak-assurance-frameworks-for-data-and-ai",
+      "lack-of-ethical-governance",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "agentic-ai",
+      "autonomous-systems",
+      "risk-mitigation",
+      "llm",
+      "ai-guidance"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-agentic-rag-2025",
+    "title": "AI Insights: Agentic RAG",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-agentic-rag-html",
+    "description": "The AI Insights article introduces agentic Retrieval Augmented Generation (RAG), explaining that traditional RAG slices documents into vector embeddings for retrieval, while agentic RAG adds autonomy by iteratively identifying gaps and issuing further queries until outputs are complete\u3010109206199018461\u2020L124-L206\u3011.  \nIt describes how agentic RAG systems refine reports through a cycle of drafting, gap identification and refinement, but warns of risks such as runaway iterative loops, debugging challenges, data quality and bias issues, and language\u2011model confabulation; robust termination criteria, audit histories and extensive testing are recommended\u3010109206199018461\u2020L208-L263\u3011\u3010109206199018461\u2020L267-L293\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk",
+      "lack-of-ethical-governance"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "agentic-rag",
+      "retrieval-augmented-generation",
+      "iterative-ai",
+      "risk",
+      "testing"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-agentic-workflow-2025",
+    "title": "AI Insights: Agentic Workflow",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-agentic-workflow-html",
+    "description": "The Government Digital Service explains that agentic workflows introduce autonomous AI agents into traditional workflow systems, allowing dynamic task decomposition, adaptive collaboration and continuous execution across multi\u2011agent teams\u3010113331796226191\u2020L156-L248\u3011.  \nExamples include logistics management, personal scheduling assistants and travel planning; however, risks include a lack of transparency, unintended behaviours and reliance on underlying language models that may hallucinate or embed biases\u3010113331796226191\u2020L275-L322\u3011\u3010113331796226191\u2020L316-L366\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk",
+      "lack-of-ethical-governance"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "agentic-workflow",
+      "autonomous-agents",
+      "workflow-systems",
+      "transparency",
+      "risk-management"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-integrated-agents-2025",
+    "title": "AI Insights: Integrated Agents",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-integrated-agents-html",
+    "description": "This guidance defines integrated agents as AI\u2011driven assistants or automation tools embedded into software to perform tasks such as drafting documents, managing spreadsheets and scheduling meetings\u3010916045406565647\u2020L121-L134\u3011.  \nIt distinguishes between agentic AI, traditional software agents and visual agent interfaces, and warns of risks including data leakage, ungoverned automation (shadow IT) and lack of responsible design; guidelines recommend responsible entity creation, clear business justification, validation, inventory maintenance and continuous monitoring of agent behaviour\u3010916045406565647\u2020L136-L280\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "unclear-accountability-for-digital-risk",
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "integrated-agents",
+      "automation",
+      "shadow-it",
+      "governance",
+      "ai-tools"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-synthetic-data-2025",
+    "title": "AI Insights: Synthetic Data",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-synthetic-data-html",
+    "description": "GDS\u2019s AI Insights piece explains that synthetic data are artificially generated datasets designed to mimic real\u2011world data while preserving statistical properties, used to address data quality, bias, privacy and rare event issues\u3010326630106798414\u2020L124-L146\u3011.  \nIt notes that synthetic data help rebalance datasets and simulate rare events but warns that poorly generated data can introduce unrealistic patterns and bias; responsible development requires continuous validation, fairness assessments, version control and documentation\u3010326630106798414\u2020L132-L156\u3011\u3010326630106798414\u2020L183-L236\u3011.  \nThe article emphasises that synthetic data complement rather than replace real data and must be combined with real\u2011world testing\u3010326630106798414\u2020L242-L247\u3011.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "poor-data-quality-or-governance",
+      "bias-and-discrimination-in-data",
+      "lack-of-common-data-standards"
+    ],
+    "personas": [
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "synthetic-data",
+      "data-privacy",
+      "bias-mitigation",
+      "dataset-generation",
+      "responsible-ai"
+    ],
+    "date": "2025-09-11"
+  },
+  {
+    "id": "ai-insights-prompt-risks-2025",
+    "title": "AI Insights: Prompt Risks",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-prompt-risks-html",
+    "description": "This spotlight article warns that generative AI systems are vulnerable to \u201cprompt injection\u201d attacks, where malicious instructions hidden in user input or embedded content can override safety rules and extract confidential information.  The guidance explains that static prompt templates are not enough\u2014attackers can manipulate the large language model\u2019s context to reveal secrets or execute unauthorised actions\u2014and that organisations must treat both public and internal systems as attack surfaces.  It highlights \u201cjailbreaking\u201d techniques that circumvent safety constraints and recommends continuous testing, cross\u2011functional security processes, training and rigorous auditing to limit vulnerabilities and ensure responsible AI use\u3010742378120718611\u2020L164-L273\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Security",
+      "Developer",
+      "Project"
+    ],
+    "tags": [
+      "prompt-injection",
+      "jailbreaking",
+      "ai-security",
+      "attack-vectors",
+      "ai-ethics"
+    ],
+    "date": "2025-04-25"
+  },
+  {
+    "id": "ai-insights-introduction-2025",
+    "title": "AI Insights: Introduction",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-introduction-html",
+    "description": "This introductory guidance explains that the AI Insights series is a collection of articles from the Government Digital Service to help UK public sector organisations implement artificial intelligence effectively, safely and securely.  It notes that AI adoption is a priority for government but brings limitations and risks, so the series complements the AI Playbook by covering topics not addressed in the playbook\u2014such as safeguarding, evaluation metrics, prompt engineering, chatbots and agentic systems\u2014and will be updated every two months to reflect policy and technology developments\u3010669465359094656\u2020L123-L163\u3011.  The article emphasises that the content is aimed at both technical and non\u2011specialist audiences and encourages readers to join cross\u2011government AI communities and use AI guidance alongside organisational policies\u3010669465359094656\u2020L168-L177\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-leadership-buy-in-and-alignment",
+      "lack-of-shared-goals-and-performance-indicators",
+      "unclear-responsibility-and-accountability"
+    ],
+    "personas": [
+      "Policy",
+      "Public Sector",
+      "Technical"
+    ],
+    "tags": [
+      "ai-insights-series",
+      "public-sector-ai",
+      "ai-playbook",
+      "government-guidance",
+      "skills"
+    ],
+    "date": "2025-04-25"
+  },
+  {
+    "id": "ai-playbook-principles-2025",
+    "title": "Artificial Intelligence Playbook: Principles for the UK Government",
+    "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+    "description": "The UK government\u2019s AI Playbook sets out ten principles for responsible AI adoption.  It urges teams to understand what AI can and cannot do and to recognise that current models lack reasoning and contextual awareness; civil servants must learn how to use AI tools safely and test them for accuracy\u3010836031714304758\u2020L331-L343\u3011.  The playbook stresses lawful and ethical use of AI\u2014consulting legal and data protection experts, addressing bias and environmental impact\u2014and insists that AI services be designed to meet security standards, with safeguards against data poisoning, prompt injection and hallucinations\u3010836031714304758\u2020L348-L404\u3011.  Further principles require meaningful human control at appropriate stages, managing the full AI life cycle, choosing the right tool for each job and fostering openness, collaboration and commercial engagement to ensure skills and assurance frameworks are in place\u3010836031714304758\u2020L413-L466\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Policy",
+      "Project",
+      "Programme"
+    ],
+    "tags": [
+      "ai-playbook",
+      "responsible-ai",
+      "principles",
+      "public-sector",
+      "ethical-guidance"
+    ],
+    "date": "2025-02-10"
+  },
+  {
+    "id": "ai-powering-productivity-uk-2025",
+    "title": "AI: Powering Productivity in the UK",
+    "url": "https://www.celonis.com/insights/reports/business-productivity",
+    "description": "Celonis\u2019s 2025 UK Business Productivity report surveys 500 senior leaders and finds that economic headwinds, employee stress, difficult technology implementation and digital skills gaps are the main barriers to productivity.  Around 39% of respondents say AI\u2011enabled solutions and process intelligence tools already help employees be more productive, and nearly half of businesses are investing in AI to automate manual processes, reduce errors and free staff for higher\u2011value tasks\u3010568879877490547\u2020L13-L23\u3011.  The report argues that AI, hybrid working and upskilling can boost growth, and it offers case studies where AI improves quality control, compliance and risk modelling while cautioning that companies must invest in skills and change management to realise these benefits.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "poor-collaboration-and-knowledge-sharing"
+    ],
+    "personas": [
+      "Business",
+      "Operations",
+      "Human Resources"
+    ],
+    "tags": [
+      "productivity",
+      "ai-investment",
+      "process-intelligence",
+      "business-survey",
+      "uk-economy"
+    ],
+    "date": "2025-01-01"
+  },
+  {
+    "id": "ai-ready-data-essentials-2024",
+    "title": "Roadmap: AI\u2011Ready Data Essentials",
+    "url": "https://cbgmanagementcoaching.co.uk/wp-content/uploads/2024/12/Gartner-ai-ready-data-roadmap.pdf",
+    "description": "Gartner\u2019s roadmap argues that many generative AI projects fail because data is poor quality, ungoverned or misaligned with business goals.  It defines \u201cAI\u2011ready data\u201d as a continuous practice of aligning, qualifying and governing data and warns that up to 30% of generative\u2011AI projects will be abandoned due to inadequate data quality, unclear value or high costs\u3010781778272067519\u2020L150-L190\u3011.  The guide presents a five\u2011stage approach: assess data requirements and prioritise AI use cases; present these needs to leadership for investment and alignment; evolve data practices with metadata, semantics and RAG techniques; extend the data ecosystem with improved literacy and semantics; and scale with cross\u2011functional governance, continuous quality management and compliance monitoring\u3010781778272067519\u2020L360-L452\u3011.  It emphasises cross\u2011functional collaboration among CIOs, CDAOs, data engineers, security teams and procurement to build trustworthy, interoperable data.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "lack-of-common-data-standards",
+      "poor-data-quality-or-governance",
+      "siloed-or-inaccessible-data"
+    ],
+    "personas": [
+      "Data",
+      "IT",
+      "Governance"
+    ],
+    "tags": [
+      "ai-ready-data",
+      "data-governance",
+      "data-quality",
+      "roadmap",
+      "generative-ai"
+    ],
+    "date": "2024-12-01"
+  },
+  {
+    "id": "apm-bok-data-analytics-ai-2025",
+    "title": "APM BoK 2025: Data Analytics & AI in Project Management",
+    "url": "https://www.apm.org.uk",
+    "description": "This chapter from the Association for Project Management\u2019s Body of Knowledge explains that projects generate large amounts of unstructured and siloed data, and that data analytics and AI can transform this into evidence\u2011based insights.  It describes how AI improves decision\u2011making by predicting risks, delays and cost overruns, automates tasks such as scheduling and progress tracking, enhances collaboration and communication and supports cost and time savings\u3010149767134228139\u2020L86-L147\u3011.  The guidance stresses that AI adoption must start with clear use cases and robust data strategies; it highlights ethical concerns, human oversight and environmental impacts, and warns that poor data quality (\u201crubbish in, rubbish out\u201d) undermines AI outputs\u3010149767134228139\u2020L570-L698\u3011.  It calls for upskilling the workforce, ensuring data availability and comparability across supply chains and measuring progress towards AI\u2011driven project management.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "poor-collaboration-and-knowledge-sharing"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Executive"
+    ],
+    "tags": [
+      "project-management",
+      "data-analytics",
+      "ai-benefits",
+      "ethical-ai",
+      "upskilling"
+    ],
+    "date": "2025-01-01"
+  },
+  {
+    "id": "ai-in-uk-construction-2025",
+    "title": "Artificial Intelligence in UK Construction",
+    "url": "https://www.ceca.co.uk/ceca-launches-landmark-artificial-intelligence-in-uk-construction-report",
+    "description": "The Civil Engineering Contractors Association\u2019s report on AI in UK construction acknowledges that AI can deliver better design optimisation, improved safety and faster project delivery, but warns of over\u2011reliance on technology, cybersecurity threats and ethical concerns\u3010636119201477822\u2020L52-L77\u3011.  It offers ten recommendations, including promoting existing AI standards, undertaking a construction\u2011specific risk review, setting up confidential risk reporting, fostering cross\u2011industry collaboration through an AI community, developing a coordinated implementation plan, and providing role\u2011specific training on AI, security and ethics\u3010636119201477822\u2020L84-L109\u3011.  The report emphasises that AI should support human decision\u2011making rather than replace it and calls on the sector to upskill the workforce and ensure responsible governance.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Construction",
+      "Project",
+      "Risk"
+    ],
+    "tags": [
+      "construction",
+      "ai-adoption",
+      "risk-management",
+      "training",
+      "industry-report"
+    ],
+    "date": "2025-05-06"
+  },
+  {
+    "id": "ai-knowledge-economy-2024",
+    "title": "Artificial Intelligence in the Knowledge Economy",
+    "url": "https://arxiv.org/abs/2312.05481",
+    "description": "Economists Enrique Ide and Eduard Talam\u00e0s model AI as an algorithm that mimics human knowledge within hierarchical firms to study how AI affects the organisation of work.  They show that AI not only displaces some workers but also changes the way managers and workers are matched: when AI acts as a worker it becomes the most knowledgeable worker supervised by the best humans, and when AI acts as a manager it reorganises firms and alters the matching patterns\u3010891632866940950\u2020L5-L18\u3011.  The paper argues that AI simultaneously substitutes and complements human labour, increasing total labour income but creating winners and losers; organisational effects therefore matter, and AI adoption may expand firm size, shift wages and decentralise decision\u2011making\u3010891632866940950\u2020L68-L77\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-leadership-buy-in-and-alignment",
+      "lack-of-shared-goals-and-performance-indicators",
+      "unclear-responsibility-and-accountability"
+    ],
+    "personas": [
+      "Executive",
+      "HR",
+      "Strategic Planning"
+    ],
+    "tags": [
+      "knowledge-economy",
+      "labour-market",
+      "manager-worker-matching",
+      "economics-of-ai",
+      "organisational-change"
+    ],
+    "date": "2024-04-05"
+  },
+  {
+    "id": "ai-playbook-uk-government-2025",
+    "title": "Artificial Intelligence Playbook for the UK Government",
+    "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+    "description": "The UK government\u2019s AI Playbook provides guidance for civil servants using AI.  It sets out ten principles \u2013 including knowing what AI is and its limitations, using AI lawfully and ethically, ensuring security, maintaining meaningful human control, managing the AI life cycle, selecting appropriate tools, being open and collaborative, working with commercial colleagues, ensuring skills and expertise, and aligning AI use with organisational policies\u3010382923023187713\u2020L314-L326\u3011.  The playbook cautions that AI systems lack reasoning and may produce inaccurate results, so officials must learn about AI, understand its risks, seek legal and ethical advice, and employ safeguards to mitigate biases, privacy concerns and AI\u2011specific threats such as data poisoning or prompt injection\u3010382923023187713\u2020L333-L343\u3011\u3010382923023187713\u2020L348-L384\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-playbook",
+      "government",
+      "principles",
+      "ethical-ai",
+      "ai-governance"
+    ],
+    "date": "2025-02-10"
+  },
+  {
+    "id": "bridgeai-business-ai-framework-2024",
+    "title": "Business Applications of AI: Framework to Categorise AI Use Cases",
+    "url": "https://iuk-business-connect.org.uk/opportunities/ai-use-case-framework/",
+    "description": "This briefing from The Alan Turing Institute\u2019s BridgeAI programme presents a framework to help businesses categorise AI use cases.  The framework groups nine categories of information into four dimensions \u2013 organisation, AI system, input data and economic sector \u2013 to create a structured view of AI opportunities\u3010630208312351526\u2020L352-L358\u3011.  It distinguishes between product\u2011/service\u2011centric and process\u2011centric applications and lists the business functions that AI can support (e.g., accounting, customer service, logistics, HR and research & development)\u3010630208312351526\u2020L465-L502\u3011.  The AI system dimension captures capabilities such as goal\u2011directed action, recognition and detection, generation, optimisation, prediction and simulation, along with the operating environment (virtual vs physical) and readiness levels from hypothetical to operational\u3010630208312351526\u2020L578-L702\u3011.  The framework highlights that AI adoption potential is highest in sectors like agriculture, construction, creative industries and transportation, which face high deployment costs and skills gaps\u3010630208312351526\u2020L930-L959\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-shared-goals-and-prioritisation",
+      "fragmented-roles-and-responsibilities",
+      "insufficient-capability-and-resource-planning"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-use-cases",
+      "framework",
+      "bridgeai",
+      "categorisation",
+      "business-applications"
+    ],
+    "date": "2024-03-01"
+  },
+  {
+    "id": "aws-caf-for-ai-2024",
+    "title": "AWS Cloud Adoption Framework for Artificial Intelligence, Machine Learning and Generative AI",
+    "url": "https://aws.amazon.com/blogs/publicsector/working-backwards-from-generative-ai-business-value/",
+    "description": "AWS\u2019s Cloud Adoption Framework for AI (CAF\u2011AI) outlines a method for organisations to derive business value from AI.  It advises leaders to work backwards from the desired business outcomes, define expected benefits, plan organisational transformation and build foundational capabilities for AI adoption\u3010807889654525422\u2020screenshot\u3011.  The framework emphasises six critical perspectives \u2013 business, people, governance, platform, security and operations \u2013 and recommends structured assessments, such as Cloud Maturity Assessments and executive briefings, to align AI initiatives with strategic goals\u3010807889654525422\u2020screenshot\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-shared-goals-and-prioritisation",
+      "insufficient-capability-and-resource-planning",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "aws",
+      "cloud-adoption",
+      "framework",
+      "ai-strategy",
+      "governance"
+    ],
+    "date": "2024-02-13"
+  },
+  {
+    "id": "breaking-away-scaling-analytics-2018",
+    "title": "Breaking Away: The Secrets to Scaling Analytics",
+    "url": "https://www.mckinsey.com/",
+    "description": "McKinsey\u2019s analysis highlights that fewer than 20% of organisations succeed at scaling advanced analytics.  Breakaway companies align on a clear analytics strategy, invest heavily in building data, technology and talent foundations, and focus on the \u201clast mile\u201d of embedding analytics into workflows and decision\u2011making processes\u3010143094428740186\u2020screenshot\u3011.  Most firms capture small gains from isolated use cases but fail to embed analytics across the business; breakaway firms spend more of their analytics budgets on integration and scaling, enabling them to reap larger productivity benefits\u3010143094428740186\u2020screenshot\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "poor-collaboration-and-knowledge-sharing"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "analytics",
+      "scaling",
+      "strategy",
+      "last-mile",
+      "data-foundations"
+    ],
+    "date": "2018-01-01"
+  },
+  {
+    "id": "ciob-ai-playbook-2024",
+    "title": "CIOB Artificial Intelligence (AI) Playbook 2024",
+    "url": "https://www.ciob.org/industry/research/AI-Playbook",
+    "description": "The Chartered Institute of Building\u2019s AI Playbook outlines how artificial intelligence can transform the built environment.  Members of CIOB\u2019s Digital & Innovation Advisory Panel explain that AI offers vast opportunities for designing, constructing, operating and reusing buildings and infrastructure, and they provide insights and practical applications for using AI in construction workplaces\u3010892885371265111\u2020L94-L105\u3011.  The playbook includes a resources section and an AI use case template to help organisations identify business goals, user needs, data sources, expected benefits, risks and evaluation metrics\u3010892885371265111\u2020L107-L156\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "insufficient-capability-and-resource-planning"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "construction",
+      "ai-playbook",
+      "ciob",
+      "built-environment",
+      "use-case-template"
+    ],
+    "date": "2024-06-07"
+  },
+  {
+    "id": "ai-insights-series-introduction-2025",
+    "title": "AI Insights: Introducing the GDS AI Insights Series",
+    "url": "https://www.gov.uk/government/publications/ai-insights/ai-insights-introducing-the-gds-ai-insights-series-html",
+    "description": "The UK Government Digital Service (GDS) launched the AI Insights series to help public\u2011sector teams use AI safely and effectively.  The introduction explains that this series complements the AI Playbook by exploring topics not covered elsewhere\u2014such as evaluation metrics, safeguarding and agentic AI\u2014and aims to serve both technical specialists and non\u2011specialists across government.  Articles are published approximately every two months and readers are encouraged to join the cross\u2011government AI community for support\u3010642783812458816\u2020L24-L80\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-or-training",
+      "cultural-resistance-to-change",
+      "lack-of-knowledge-sharing"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-insights",
+      "public-sector",
+      "learning-resources",
+      "gds",
+      "continuous-learning"
+    ],
+    "date": "2025-04-25"
+  },
+  {
+    "id": "data-governance-toolkit-2025",
+    "title": "Data Governance Toolkit: Navigating Data in the Digital Age",
+    "url": "https://www.broadbandcommission.org/wp-content/uploads/2025/07/Data-Governance-Toolkit.pdf",
+    "description": "The Broadband Commission\u2019s toolkit (July\u00a02025) guides governments and organisations in building rights\u2011based data governance. It explains how to define a clear vision and purpose for data use that aligns with human\u2011rights law, co\u2011develop use\u2011cases with citizens and stakeholders and ensure strategic alignment across agencies\u3010259090142407965\u2020L1412-L1561\u3011. The toolkit also provides checklists on principles (transparency, accountability, fairness and stewardship), roles (chief data officers, regulators and ethics boards) and lifecycle practices such as data minimisation, metadata standards and meaningful consent\u3010259090142407965\u2020L1019-L1114\u3011. These recommendations help policy\u2011makers design governance frameworks and build public trust.",
+    "barrier_category": "governance-and-standards",
+    "barriers": [
+      "Lack of coherent data governance frameworks and policies",
+      "Insufficient stakeholder engagement and participatory design",
+      "Poor clarity of roles and responsibilities across the data lifecycle"
+    ],
+    "personas": [
+      "policy-maker",
+      "chief-data-officer",
+      "ethics-officer"
+    ],
+    "tags": [
+      "data governance",
+      "human rights",
+      "policy",
+      "stakeholder engagement"
+    ],
+    "publication_date": "2025-07-08"
+  },
+  {
+    "id": "data-sharing-and-innovation-roundtable-2025",
+    "title": "Data Sharing and Innovation Roundtable at the House of Lords",
+    "url": "(no official publication; internal roundtable PDF)",
+    "description": "This Connected Places Catapult/Digital Twin Hub roundtable (21\u00a0July\u00a02025) explored how data sharing can unlock place\u2011based innovation. Participants agreed that data sharing has evolved from a technical challenge to a strategic imperative; cross\u2011sector collaboration and narrowly defined use\u2011cases accelerate progress while infrastructure, standards and skills remain critical enablers\u3010999867150917152\u2020L30-L42\u3011. Strategic insights included the need for clear value propositions, trust\u2011building processes, SME support, flexible regulation and investment in data literacy\u3010999867150917152\u2020L44-L50\u3011. Immediate priorities highlighted national data leadership, flexible platforms, SME access, digital infrastructure and fair value exchange\u3010999867150917152\u2020L52-L58\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Cultural resistance and lack of trust in data sharing",
+      "Fragmented leadership and absence of national coordination",
+      "Limited infrastructure and skills to support interoperable data platforms"
+    ],
+    "personas": [
+      "regional-planner",
+      "innovation-manager",
+      "policy-maker"
+    ],
+    "tags": [
+      "data sharing",
+      "cross\u2011sector collaboration",
+      "SMEs",
+      "place\u2011based innovation"
+    ],
+    "publication_date": "2025-07-21"
+  },
+  {
+    "id": "future-of-work-learning-trends-2025",
+    "title": "Reimagined Development in the Future of Work: 2025 Learning Trends Perspective",
+    "url": "(internal McKinsey R&I Learning Lab report)",
+    "description": "This McKinsey Research\u00a0&\u00a0Innovation Learning Lab study synthesises over 45 trend reports to provide a navigation tool for the future of workplace learning. It highlights three interdependent themes: creating fluid development ecosystems, adopting AI responsibly and building resilient, adaptable organisations. The report argues that successful AI adoption requires a human\u2011centred vision, cross\u2011functional governance, AI fluency programmes, and rewards for higher\u2011order skills\u301066943689898833\u2020L695-L729\u3011. It warns that resilience and adaptability must be embedded in work structures to prevent burnout and that employers should support a multigenerational workforce through cross\u2011generational collaboration and continuous reskilling\u301066943689898833\u2020L745-L783\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Insufficient change management and AI literacy programmes",
+      "Burnout and lack of support for resilience and adaptability",
+      "Tensions within a multigenerational workforce"
+    ],
+    "personas": [
+      "HR-leader",
+      "learning-and-development-manager",
+      "people-analytics-specialist"
+    ],
+    "tags": [
+      "future of work",
+      "responsible AI",
+      "resilience",
+      "learning ecosystems"
+    ],
+    "publication_date": "2025-01-01"
+  },
+  {
+    "id": "digital-information-temporary-organizations-2025",
+    "title": "Digital Information in Temporary Organizations",
+    "url": "https://doi.org/10.1016/j.scaman.2025.101419",
+    "description": "In this open\u2011access journal article, Whyte and Eshraghi examine how temporary organisations \u2013 such as projects, events and emergency responses \u2013 are shaped by digital information. They note that these organisations access information via generic information systems but exhibit two distinctive features: they use digital information that pre\u2011exists, is generated during, and persists after the temporary project, and this information is transferred across multiple systems\u3010467477035535434\u2020L23-L29\u3011. The paper argues that digital information accelerates decision\u2011making and coordination but raises issues around virtualisation, algorithmic content generation and surveillance\u3010467477035535434\u2020L30-L33\u3011, calling for research on how temporary organisations manage digital information across time\u2011bounded phases\u3010467477035535434\u2020L100-L116\u3011.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "Fragmentation of digital information across multiple systems",
+      "Challenges in retaining and transferring data beyond project lifecycles",
+      "Concerns over surveillance and algorithmic content generation"
+    ],
+    "personas": [
+      "project-manager",
+      "information-systems-specialist",
+      "researcher"
+    ],
+    "tags": [
+      "temporary organisations",
+      "digital information",
+      "virtualisation",
+      "surveillance"
+    ],
+    "publication_date": "2025-04-22"
+  },
+  {
+    "id": "digital-transformation-ai-imperative-apm-2025",
+    "title": "Digital Transformation and the AI\u00a0Imperative in Public and Private Sector Projects",
+    "url": "https://eprints.soton.ac.uk/504431/1/Dacre_Baxter_Dong_Al-Mhdawi_Abeysooriya_Shen_Digital_Transformation_AI_Projects.pdf",
+    "description": "This Association for Project Management (APM) research report (July\u00a02025) surveys public and private sector project professionals to understand how digital transformation and AI are reshaping project management. Key insights include improved decision\u2011making through AI\u2011driven analytics (61% report better decisions), the critical role of data quality and governance, the importance of agile practices and modern digital tools, and the need for strategic project leadership and digital competencies\u3010790081654217139\u2020L325-L369\u3011. The report recommends establishing integrated AI platforms with human oversight, adopting data governance frameworks, tailoring agile methodologies to context, investing in digital skills and responsible AI, and measuring the impact of digital transformation on project performance\u3010790081654217139\u2020L381-L405\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Insufficient data quality and governance leading to \u2018garbage in, garbage out\u2019",
+      "Superficial adoption of agile methodologies without cultural change",
+      "Gaps between responsible AI policies and practical implementation"
+    ],
+    "personas": [
+      "project-manager",
+      "program-manager",
+      "portfolio-director"
+    ],
+    "tags": [
+      "digital transformation",
+      "AI in projects",
+      "agile",
+      "data governance"
+    ],
+    "publication_date": "2025-07-15"
+  },
+  {
+    "id": "digitalisation-construction-report-2023",
+    "title": "Digitalisation in Construction Report\u00a02023 (RICS)",
+    "url": "https://www.rics.org/profession-and-industry/policy-and-research/our-research/digitalisation-in-construction-report-2023",
+    "description": "RICS\u2019s annual report uses data from the Global Construction Monitor (Q4\u00a02022) to benchmark digital adoption in construction. While digital tools are recognised as essential for addressing climate change and delivering social value, the report warns that adoption is stagnating and areas such as carbon measurement and ESG remain nascent\u3010772581666656925\u2020L137-L155\u3011. Survey respondents cite high cost and effort of change, shortage of skilled workers and lack of clear client demand as the top blockers to digitalisation\u3010772581666656925\u2020L615-L629\u3011. The report calls for collaboration between industry, government and academia, standardised data processes and investment in skills to overcome these systemic barriers and support net\u2011zero goals\u3010772581666656925\u2020L137-L156\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "High cost and effort required to adopt digital tools",
+      "Shortage of digital skills and expertise within organisations",
+      "Lack of clear client demand and unstandardised data processes"
+    ],
+    "personas": [
+      "construction-manager",
+      "quantity-surveyor",
+      "sustainability-consultant"
+    ],
+    "tags": [
+      "construction digitalisation",
+      "sustainability",
+      "skills",
+      "blockers"
+    ],
+    "publication_date": "2023-07-10"
+  },
+  {
+    "id": "neso-digitalisation-strategy-action-plan-2025",
+    "title": "NESO Digitalisation Strategy & Action Plan\u00a0(DSAP) June\u00a02025",
+    "url": "https://www.nationalgrid.com/document/xxx",
+    "description": "The National Energy System Operator\u2019s June\u00a02025 Digitalisation Strategy & Action Plan details how digitalisation underpins the UK\u2019s transition to a net\u2011zero energy system. The foreword notes that by strengthening data sharing, embracing early AI adoption and collaborating with customers, NESO can create a more interconnected and efficient energy network\u3010546802702688372\u2020L120-L131\u3011. The strategy outlines six priorities \u2013 consumer value, clean power, decarbonised energy, customer centricity, digital mindset and people value \u2013 and commits to leveraging data and AI to plan and operate Great Britain\u2019s electricity and gas networks\u3010546802702688372\u2020L144-L156\u3011. It positions NESO as a digital leader tasked with developing secure data\u2011sharing infrastructure and exploring AI and quantum computing to enhance operational efficiency.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Need for coordinated national leadership and cross\u2011sector collaboration",
+      "Limited secure data\u2011sharing infrastructure and interoperability",
+      "Challenges of adopting AI and emerging technologies in a regulated energy sector"
+    ],
+    "personas": [
+      "energy-policy-leader",
+      "grid-operator",
+      "digital-strategy-manager"
+    ],
+    "tags": [
+      "energy digitalisation",
+      "data sharing",
+      "AI adoption",
+      "net\u2011zero"
+    ],
+    "publication_date": "2025-06-01"
+  },
+  {
+    "id": "wef-ai-c-suite-toolkit-2022",
+    "title": "Empowering AI Leadership: AI C\u2011Suite Toolkit",
+    "url": "https://www.weforum.org/whitepapers/empowering-ai-leadership-ai-c-suite-toolkit/",
+    "description": "The World Economic Forum\u2019s AI C\u2011Suite Toolkit (Jan\u00a02022) equips executives to navigate AI\u2019s transformative potential and risks. The executive summary stresses that AI could add $15.7\u00a0trillion to global GDP by 2030 but introduces unprecedented risks including bias, malicious attacks and misinformation\u3010256119419996720\u2020L163-L200\u3011. The toolkit urges C\u2011suite leaders to align AI strategies with corporate goals, integrate AI with digital and data strategies, build a culture that nurtures AI talent and ensure responsible AI governance across design, development, deployment and monitoring\u3010256119419996720\u2020L163-L248\u3011. It is structured into modules covering AI basics, strategy, people and organisation, responsible AI, implementation and AI in sustainable development.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Lack of aligned AI strategies and roadmaps at executive level",
+      "Inadequate ethical governance and risk management for AI",
+      "Limited AI literacy and talent within organisations"
+    ],
+    "personas": [
+      "executive",
+      "board-member",
+      "chief-data-officer"
+    ],
+    "tags": [
+      "AI strategy",
+      "C\u2011suite",
+      "responsible AI",
+      "risk management"
+    ],
+    "publication_date": "2022-01-12"
+  },
+  {
+    "id": "ey-ai-pulse-survey-2025",
+    "title": "EY US AI Pulse Survey 2025: Why Agentic AI is a Revolution Stuck in an Evolution",
+    "url": "https://www.ey.com/en_us/ai/ai-pulse-survey-2025",
+    "description": "EY\u2019s 2025 AI Pulse Survey explores enterprise perceptions of agentic AI. It finds that 97% of senior leaders whose organisations invest in AI report positive ROI across functions, yet only 14% have fully implemented agentic AI and 87% identify barriers such as cybersecurity and data\u2011privacy concerns\u3010589152007710681\u2020L15-L29\u3011. Fear of replacement also contributes to hesitancy, and investment is shifting towards building custom AI solutions in\u2011house\u3010589152007710681\u2020L20-L37\u3011. The survey notes that while spending on AI is rising and leaders anticipate transformative value, execution lags, highlighting the need for robust governance and alignment.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "Cybersecurity and data\u2011privacy concerns around agentic AI",
+      "Fear of workforce replacement hindering adoption",
+      "Misalignment between rising investment and implementation capability"
+    ],
+    "personas": [
+      "executive",
+      "risk-manager",
+      "innovation-leader"
+    ],
+    "tags": [
+      "agentic AI",
+      "enterprise survey",
+      "ROI",
+      "custom AI"
+    ],
+    "publication_date": "2025-07-01"
+  },
+  {
+    "id": "deloitte-ai-transformation-2022",
+    "title": "Fueling the AI Transformation: Four Key Actions Powering Widespread Value",
+    "url": "https://www2.deloitte.com/us/en/insights/focus/cognitive-technologies/state-of-ai-and-intelligent-automation/ai-transformation.html",
+    "description": "Deloitte\u2019s 2022 \u2018State of AI in the Enterprise\u2019 report outlines four actions to unlock value from AI: (1) invest in culture and leadership \u2013 high\u2011performing organisations emphasise cross\u2011functional collaboration, workforce optimism and change management\u3010610178708010184\u2020L540-L569\u3011; (2) transform operations \u2013 redesign workflows and roles to manage risk and integrate AI ethically\u3010610178708010184\u2020L540-L569\u3011; (3) orchestrate technology and talent \u2013 acquire and develop AI talent while leveraging off\u2011the\u2011shelf platforms; and (4) select high\u2011value use cases that deliver near\u2011 and long\u2011term business value\u3010610178708010184\u2020L83-L109\u3011. The report notes that 94% of leaders view AI as critical over the next five years but many organisations remain underachievers despite increased deployment\u3010610178708010184\u2020L134-L176\u3011, underscoring the need for culture change and human\u2011machine collaboration.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Lack of AI\u2011ready culture and leadership commitment",
+      "Unchanged operations and workflows limiting AI value realisation",
+      "Insufficient orchestration of technology and talent across the organisation"
+    ],
+    "personas": [
+      "executive",
+      "operations-director",
+      "change-management-lead"
+    ],
+    "tags": [
+      "AI transformation",
+      "culture",
+      "leadership",
+      "use cases"
+    ],
+    "publication_date": "2022-10-01"
+  },
+  {
+    "id": "genai-psychology-work-2025",
+    "title": "GenAI and the psychology of work",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40345947/",
+    "description": "A review in Trends in Cognitive Sciences warns that generative AI tools can mimic cognitive, creative and interpersonal skills, challenging human\u2013machine boundaries and reshaping the knowledge, task and social characteristics of work.  The authors stress that while GenAI can improve productivity, it threatens workers\u2019 needs for competence, autonomy and relatedness, leading to coping strategies and potential resistance.  They call for human\u2011centred workplaces that balance GenAI\u2019s benefits with psychological risks\u301014784767410509\u2020L307-L317\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-trust-and-resistance-to-change",
+      "fear-and-lack-of-expertise",
+      "lack-of-digital-skills-and-literacy"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "generative-ai",
+      "psychology",
+      "human-machine",
+      "worker-wellbeing",
+      "cognitive-skills"
+    ],
+    "date": "2025-09"
+  },
+  {
+    "id": "generative-ai-framework-hmg-2024",
+    "title": "Generative AI framework for HM Government",
+    "url": "https://interoperable-europe.ec.europa.eu/collection/eugovtech/document/read-generative-ai-framework-hm-government",
+    "description": "The UK government\u2019s Central Digital and Data Office issued a generative\u2011AI framework built around ten principles: understanding what generative AI is and its limitations, using it lawfully and ethically, securing AI tools, maintaining meaningful human control, managing the AI lifecycle, picking the right tool for the job, being open and collaborative, engaging commercial colleagues early, building skills and expertise, and aligning with organisational policies and assurance.  The framework explains that large language models only predict the next word and lack true understanding, so they can hallucinate, replicate bias and lack domain expertise, meaning organisations should put assurance in place and avoid high\u2011risk use cases\u3010866773175046722\u2020L14-L33\u3011\u3010866773175046722\u2020L687-L749\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ethical-governance",
+      "weak-assurance-frameworks-for-data-and-ai",
+      "unclear-accountability-for-digital-risk"
+    ],
+    "personas": [
+      "Policy",
+      "Programme",
+      "Project",
+      "Business"
+    ],
+    "tags": [
+      "generative-ai",
+      "government",
+      "principles",
+      "ethical-ai",
+      "public-sector"
+    ],
+    "date": "2024-02"
+  },
+  {
+    "id": "gleeds-ai-initiatives-2024",
+    "title": "Gleeds AI initiatives (October 2024)",
+    "url": "file:///home/oai/share/Gleeds AI initiatives Oct 2024.pdf",
+    "description": "Gleeds outlines several internal AI tools to streamline project services.  A project\u2011execution\u2011plan assistant analyses best practice to standardise and improve project execution plans, while a bid\u2011writer AI produces high\u2011quality tender responses based on templates.  Additional tools include a procurement report generator, a meeting\u2011minutes AI that combines Teams transcriptions with custom generative summarisation, and a compliance assistant that provides instant access to industry information\u3010178062758083303\u2020L14-L40\u3011.  These initiatives aim to improve efficiency and free staff for higher\u2011value tasks\u3010178062758083303\u2020L42-L68\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "legacy-systems-and-fragmented-it",
+      "lack-of-integration-across-platforms",
+      "lack-of-digital-skills-and-literacy"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-tools",
+      "project-management",
+      "bidding",
+      "meeting-minutes",
+      "compliance"
+    ],
+    "date": "2024-10"
+  },
+  {
+    "id": "google-cloud-ai-adoption-framework-2023",
+    "title": "Google Cloud\u2019s AI Adoption Framework",
+    "url": "file:///home/oai/share/Google Cloud\u2019s AI Adoption Framework.pdf",
+    "description": "Google Cloud\u2019s AI Adoption Framework organises AI readiness around four pillars \u2013 people, process, technology and data \u2013 and identifies six themes that organisations must address: Learn, Lead, Access, Scale, Secure and Automate.  Each theme poses questions about training staff, securing executive sponsorship, enabling data sharing, scaling on cloud, protecting data and automating ML pipelines.  The framework outlines three maturity phases (Tactical, Strategic, Transformational) that organisations progress through as they embed AI into core operations and governance\u3010346413967898218\u2020L159-L216\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-strategic-alignment-and-leadership",
+      "inefficient-decision-making-processes",
+      "lack-of-digital-skills-and-literacy"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business"
+    ],
+    "tags": [
+      "ai-adoption",
+      "maturity-framework",
+      "training",
+      "cloud-scale",
+      "google-cloud"
+    ],
+    "date": "2023-12"
+  },
+  {
+    "id": "human-experience-ai-strategy-forrester-2025",
+    "title": "Ground your workforce AI strategy in human experience",
+    "url": "file:///home/oai/share/Ground Your Workforce AI Strategy In Human Experience _ Forrester_2025.pdf",
+    "description": "Forrester urges organisations to centre AI strategy on human experience rather than technology alone.  The report argues that AI augments rather than replaces employees, so workers need sufficient AI literacy and ethical awareness (AIQ) to use tools effectively.  Underinvesting in people undermines AI initiatives; employee buy\u2011in is essential, misuse can lead to quality breakdowns and ethical lapses, and over\u2011reliance on AI risks cognitive laziness.  Leaders should design human\u2011centric AI cultures, provide training, and avoid deploying AI without a human focus\u3010782698308658104\u2020L11-L19\u3011\u3010782698308658104\u2020L63-L87\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-digital-skills-and-literacy",
+      "lack-of-trust-and-resistance-to-change",
+      "fear-and-lack-of-expertise"
+    ],
+    "personas": [
+      "Business",
+      "Programme",
+      "Project"
+    ],
+    "tags": [
+      "human-centric-ai",
+      "ai-literacy",
+      "employee-experience",
+      "ethical-ai",
+      "forrester"
+    ],
+    "date": "2025-09"
+  },
+  {
+    "id": "h2open-open-data-water-industry-2021",
+    "title": "H2Open \u2013 Open data in the water industry: a case for change",
+    "url": "https://www.ofwat.gov.uk/wp-content/uploads/2021/10/H2Open-open-data-in-the-water-industry-a-case-for-change.pdf",
+    "description": "Ofwat\u2019s H2Open discussion paper argues that the UK water sector must embrace open data to deliver greater value for customers, communities and the environment.  The executive summary explains that open data can stimulate innovation, encourage new business models, improve decision\u2011making and transparency, and help address challenges such as climate change and changing customer demands\u3010683071280372479\u2020L46-L86\u3011.  The paper calls for a strong data culture, improved collaboration and skills, and shared data infrastructure to unlock these benefits\u3010683071280372479\u2020L117-L133\u3011.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "lack-of-data-standards-and-metadata",
+      "siloed-and-inaccessible-data",
+      "limited-trust-in-data-sharing"
+    ],
+    "personas": [
+      "Programme",
+      "Business",
+      "Policy"
+    ],
+    "tags": [
+      "open-data",
+      "water-sector",
+      "data-sharing",
+      "innovation",
+      "ofwat"
+    ],
+    "date": "2021-10"
+  },
+  {
+    "id": "ai-index-report-2025",
+    "title": "Artificial Intelligence Index Report 2025",
+    "url": "file:///home/oai/share/hai_ai_index_report_2025.pdf",
+    "description": "The AI Index\u2019s eighth edition highlights rapid progress and widespread adoption of AI.  Top takeaways include sharp improvements on new benchmarks such as MMMU, GPQA and SWE\u2011bench, the embedding of AI in healthcare and transport (e.g., hundreds of FDA\u2011approved AI medical devices and autonomous rides), and record levels of private investment with the U.S. still leading in models while China closes the performance gap.  The report notes accelerating corporate adoption, growing public optimism alongside trust concerns, and an uneven evolution of responsible AI practices\u3010886951152940791\u2020L95-L123\u3011.",
+    "barrier_category": "market-and-value-case",
+    "barriers": [
+      "unclear-investment-and-business-case",
+      "insufficient-analysis-of-costs-and-benefits",
+      "uncertain-roi-from-digital-projects"
+    ],
+    "personas": [
+      "Business",
+      "Policy",
+      "Programme"
+    ],
+    "tags": [
+      "ai-index",
+      "benchmarks",
+      "investment",
+      "adoption",
+      "responsible-ai"
+    ],
+    "date": "2025-04"
+  },
+  {
+    "id": "cbi-genai-adoption-survey-2025",
+    "title": "How strategy teams drive generative AI adoption (CBI survey)",
+    "url": "file:///home/oai/share/Here's how leading strategy teams are successfully driving generative AI adoption in their organizations_CBI_Jan 2025.pdf",
+    "description": "CBI surveyed 50 senior strategy leaders and found generative AI is their top technology priority, yet only 32% have active deployments.  The report shows that enabling secure enterprise AI and data management are top focus areas; security and regulatory concerns, competing internal priorities and resource constraints are the most common implementation challenges.  Leading teams prioritise customer\u2011facing functions and use tiger\u2011team playbooks to focus efforts, with operations and finance following as the next frontier\u301097618583529400\u2020L29-L67\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "cybersecurity-privacy-and-regulatory-compliance",
+      "unclear-accountability-for-digital-risk",
+      "lack-of-ethical-governance"
+    ],
+    "personas": [
+      "Business",
+      "Programme",
+      "Project"
+    ],
+    "tags": [
+      "generative-ai",
+      "survey",
+      "strategy",
+      "implementation",
+      "barriers"
+    ],
+    "date": "2025-01"
+  },
+  {
+    "id": "fidic-ey-ai-infrastructure-2024",
+    "title": "AI and the future of infrastructure (FIDIC & EY)",
+    "url": "file:///home/oai/share/How artificial intelligence can unlock a new future for infrastructure_FIDIC_EY_September 2024.pdf",
+    "description": "FIDIC and EY argue that AI can help the infrastructure sector meet net\u2011zero, productivity and skills\u2011shortage challenges by optimising planning, design, construction and asset management.  The report notes that AI adoption is fragmented and held back by siloed thinking; it calls for collaboration across sector players, investment in new business models, and attention to ethics, data privacy and cybersecurity to unlock AI\u2019s potential\u3010567913873504996\u2020L42-L69\u3011.  World leaders at the Global Leadership Forum identified labour shortages, asset optimisation and climate resilience as areas where AI could deliver significant value\u3010567913873504996\u2020L56-L67\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "fragmented-value-chains-and-roles",
+      "inefficient-decision-making-processes",
+      "lack-of-strategic-alignment-and-leadership"
+    ],
+    "personas": [
+      "Project",
+      "Programme",
+      "Business",
+      "Policy"
+    ],
+    "tags": [
+      "infrastructure",
+      "net-zero",
+      "collaboration",
+      "data-privacy",
+      "ai-in-construction"
+    ],
+    "date": "2024-09"
+  },
+  {
+    "id": "pwc-microsoft-ai-scale-playbook-2024",
+    "title": "How to deploy AI at scale: PwC & Microsoft playbook",
+    "url": "file:///home/oai/share/How to deploy AI at scale_PwC Microsoft.pdf",
+    "description": "PwC and Microsoft\u2019s playbook emphasises that cloud infrastructure and cybersecurity are foundational to enterprise AI.  It advises organisations to define AI goals aligned with business strategy, assess AI maturity, and develop a clear roadmap; emphasises assessing and upgrading cloud infrastructure to support AI workloads; and advocates responsible AI practices through codes of conduct and robust governance.  The report notes that 70% of CEOs believe GenAI will transform value creation but warns that organisations must build digital skills and secure infrastructure before scaling AI\u3010203507750072444\u2020L36-L51\u3011\u3010203507750072444\u2020L70-L123\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-strategic-alignment-and-leadership",
+      "cybersecurity-privacy-and-regulatory-compliance",
+      "inefficient-decision-making-processes"
+    ],
+    "personas": [
+      "Business",
+      "Programme",
+      "Project"
+    ],
+    "tags": [
+      "ai-scale",
+      "cloud",
+      "cybersecurity",
+      "roadmap",
+      "pwc"
+    ],
+    "date": "2024-03"
+  },
+  {
+    "id": "53",
+    "title": "How to Test and Evaluate AI? Cross-Government AI Testing and Assurance Framework",
+    "url": "https://testing-ai-standards.github.io/cross-gov-ai-testing-framework/",
+    "description": "This UK public-sector framework provides a shared, evaluation-driven approach for testing, evaluating and assuring AI systems across their lifecycle. It recognises that AI is probabilistic and autonomous, so it defines core quality attributes under safety & ethics, openness & trust, performance & resilience and user & context fit, and lays out testing principles such as context\u2011appropriate testing, data quality checks, autonomy and drift evaluation, risk\u2011based assurance, explainability, ethical risk tests, adversarial and robustness testing, safe failure, and building quality from the start",
+    "barrier_theme": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-testing-and-assurance-frameworks",
+      "data-bias-and-privacy-concerns",
+      "insufficient-regulatory-guidance"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "ai-testing",
+      "ai-governance",
+      "public-sector",
+      "risk-and-assurance"
+    ],
+    "date": "2025-09-29"
+  },
+  {
+    "id": "54",
+    "title": "AI Value Creators: Beyond the Generative AI User Mindset",
+    "url": "https://www.oreilly.com/library/view/ai-value-creators/9781098168353/",
+    "description": "This O\u2019Reilly guide for business leaders argues that GenAI and agentic AI mark a new \u201cNetscape moment\u201d and urges companies to shift from adding AI to existing workflows (+AI) to an AI\u2011first (AI+) mindset. It introduces a rebooted AI Ladder emphasising robust information architectures, reimagining workflows with agents and automation, aligning budgets and use cases, and changing mental models so data collection, governance and AI are integrated across the organisation",
+    "barrier_theme": "leadership-and-alignment",
+    "barriers": [
+      "insufficient-strategic-alignment",
+      "lack-of-leadership-buy-in",
+      "unclear-ai-roadmaps"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "engineering/construction consultant"
+    ],
+    "tags": [
+      "ai-strategy",
+      "value-creation",
+      "leadership",
+      "generative-ai"
+    ],
+    "date": "2025-04-01"
+  },
+  {
+    "id": "55",
+    "title": "How Industrialized Construction is building tomorrow",
+    "url": "https://www.ifs.com/",
+    "description": "This IFS report explains how industrialised construction moves work offsite into controlled environments using offsite, modular, prefabricated and platform\u2011based methods. It categorises industrialised construction approaches (e.g., volumetric modular, structural panelised, offsite components, additive manufacturing) and notes that standardised kits of components enable faster, cost\u2011efficient projects, improved quality and sustainability. Drivers include competition, labour shortages, government targets, poor delivery performance, low margins, quality, safety and sustainability; modular construction can cut project timelines by up to 50\u00a0% and costs by up to 20\u00a0%",
+    "barrier_theme": "digital-and-tech-constraints",
+    "barriers": [
+      "limited-adoption-of-offsite-manufacturing",
+      "poor-integration-of-digital-tools",
+      "cost-and-risk-concerns"
+    ],
+    "personas": [
+      "contractor",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "industrialised-construction",
+      "modular",
+      "offsite",
+      "sustainability",
+      "digital-transformation"
+    ],
+    "date": "2023-09-01"
+  },
+  {
+    "id": "56",
+    "title": "AI guardrails (McKinsey Explainers)",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-are-ai-guardrails",
+    "description": "This McKinsey Explainer outlines why companies need AI guardrails to ensure large language models operate safely and in alignment with organisational standards. It describes benefits such as privacy, security, regulatory compliance and trust, then defines guardrail types (appropriateness, hallucination, regulatory compliance, alignment and validation). Guardrails are implemented using deterministic components \u2013 a checker, corrector, rail and guard \u2013 and organisations should design them with multidisciplinary teams, define content-quality metrics, adopt modular and dynamic approaches, align with regulations, and build new roles to oversee AI governance",
+    "barrier_theme": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-ai-guardrails",
+      "regulatory-and-safety-risks",
+      "insufficient-compliance-mechanisms"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "engineering/construction consultant"
+    ],
+    "tags": [
+      "ai-guardrails",
+      "compliance",
+      "risk-management",
+      "responsible-ai"
+    ],
+    "date": "2024-11-01"
+  },
+  {
+    "id": "57",
+    "title": "Delivering on construction productivity is no longer optional",
+    "url": "https://www.mckinsey.com/industries/operations/our-insights/delivering-on-construction-productivity-is-no-longer-optional",
+    "description": "McKinsey\u2019s 2024 paper warns that global construction spending could rise from $13\u00a0trillion in 2023 to $22\u00a0trillion in 2040, yet productivity has stagnated and labour shortages threaten to leave a $40\u00a0trillion output gap. Outside China, the industry must double growth rates to meet demand. The report highlights that economic labour productivity in construction grew just 0.4\u00a0% annually between 2000 and 2022 and even declined recently, arguing that without faster productivity growth the sector will impede net\u2011zero targets, housing and infrastructure goals",
+    "barrier_theme": "skill-and-culture-gaps",
+    "barriers": [
+      "labour-and-skill-shortages",
+      "stagnant-productivity",
+      "slow-technology-adoption"
+    ],
+    "personas": [
+      "contractor",
+      "commissioners/asset owner",
+      "engineering/construction consultant"
+    ],
+    "tags": [
+      "construction-productivity",
+      "labour-shortage",
+      "net-zero",
+      "digital-transformation"
+    ],
+    "date": "2024-08-01"
+  },
+  {
+    "id": "58",
+    "title": "The agentic organization: Contours of the next paradigm for an AI era",
+    "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-an-ai-era",
+    "description": "McKinsey\u2019s 2025 article describes the emergence of the \u2018agentic organisation\u2019, where humans collaborate with virtual and physical AI agents across business functions to deliver value at near\u2011zero marginal cost. Early adopters are using agent squads for hyperpersonalised customer interactions, AI\u2011first workflows and real\u2011time decision\u2011making. The article outlines five pillars\u2014business model, operating model, governance, workforce & culture, and technology & data\u2014arguing that organisations must rewire operating models, build proprietary data, adopt flat agentic teams, embed guardrail agents and reskill staff to thrive in an AI\u2011first era",
+    "barrier_theme": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-ai-first-operating-model",
+      "inadequate-governance-and-control",
+      "workforce-transition-challenges"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "engineering/construction consultant",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "agentic-ai",
+      "operating-model",
+      "governance",
+      "workforce",
+      "business-model"
+    ],
+    "date": "2025-09-26"
+  },
+  {
+    "id": "59",
+    "title": "Mind the (Investment) gap: funding and delivering capital projects amidst fiscal constraints",
+    "url": "https://www.ey.com/en_gl/infrastructure/how-to-close-the-infrastructure-investment-gap",
+    "description": "EY\u2019s 2024 report highlights that Western governments face a widening investment gap in capital projects due to decades\u2011high inflation, rising borrowing costs and expanding balance sheets. In the UK there is a \u00a3700\u00a0billion shortfall in funded programmes through 2040 and up to \u00a31\u00a0trillion if cost overruns persist. The report proposes three solutions: significantly increase private funding via alternative revenue and delivery models, deliver more for less through integrated design to cut costs by 20\u201325\u00a0%, and unleash new technologies\u2014especially AI\u2014for accurate spend classification and cost and risk management, yielding 10\u00a0% productivity savings",
+    "barrier_theme": "procurement-and-funding-hurdles",
+    "barriers": [
+      "insufficient-capital-funding",
+      "high-cost-of-capital",
+      "lack-of-private-investment"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor"
+    ],
+    "tags": [
+      "infrastructure",
+      "capital-projects",
+      "funding-gap",
+      "ai-for-cost-management",
+      "private-investment"
+    ],
+    "date": "2024-09-01"
+  },
+  {
+    "id": "60",
+    "title": "How People Use ChatGPT: NBER Working Paper",
+    "url": "https://www.nber.org/papers/w34255",
+    "description": "This NBER working paper analyses anonymised usage data from ChatGPT\u2019s consumer product between November\u00a02022 and July\u00a02025, when the chatbot had been adopted by about 10\u00a0% of the world\u2019s adult population. The authors find that early adopters were disproportionately male but the gender gap has closed; growth is faster in lower\u2011income countries. Work\u2011related messages make up less than 30\u00a0% of usage, with \u2018practical guidance\u2019, \u2018seeking information\u2019 and \u2018writing\u2019 dominating; ChatGPT\u2019s unique value is in generating digital outputs and providing decision support for knowledge\u2011intensive jobs",
+    "barrier_theme": "skill-and-culture-gaps",
+    "barriers": [
+      "digital-divide-and-unequal-access",
+      "misalignment-of-use-cases",
+      "lack-of-ai-literacy"
+    ],
+    "personas": [
+      "asset operator/maintainer",
+      "engineering/construction consultant",
+      "contractor"
+    ],
+    "tags": [
+      "chatgpt",
+      "usage-patterns",
+      "digital-divide",
+      "decision-support"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "61",
+    "title": "Transforming Construction: Smarter, greener, together",
+    "url": "https://neccontract.com/",
+    "description": "This 2025 NEC research report finds the built\u2011environment sector at a turning point, driven by climate change, digital technologies and a shift from adversarial to collaborative project delivery. Survey respondents express enthusiasm for digital adoption, sustainability and collaboration, but highlight that transformation requires the right contractual frameworks, training and leadership to embed collaboration and environmental responsibility across the supply chain. The report advocates moving to NEC collaborative contracting, investing in digital tools like BIM and digital twins, fostering a culture of trust and partnership, and ensuring sustainability and digitalisation become standard practice",
+    "barrier_theme": "leadership-and-alignment",
+    "barriers": [
+      "adversarial-contractual-models",
+      "insufficient-collaboration",
+      "uneven-digital-adoption"
+    ],
+    "personas": [
+      "contractor",
+      "commissioners/asset owner",
+      "engineering/construction consultant"
+    ],
+    "tags": [
+      "construction",
+      "collaboration",
+      "sustainability",
+      "digital-transformation",
+      "contracts"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "62",
+    "title": "Identifying and scaling AI use cases",
+    "url": "https://openai.com/enterprise/aiguide/use-cases",
+    "description": "This OpenAI guide helps organisations find and scale AI use cases that deliver business value. It outlines three steps: identify opportunities by understanding what AI excels at and targeting repetitive tasks, skill bottlenecks and ambiguous work; teach employees six use case \u2018primitives\u2019 and encourage hackathons and workshops to surface ideas; and collect and prioritise use cases based on value and feasibility before mapping workflows across departments. The guide stresses that leadership support, simple use cases and employee empowerment accelerate adoption and that AI frees people for higher\u2011value work",
+    "barrier_theme": "leadership-and-alignment",
+    "barriers": [
+      "difficulty-identifying-ai-use-cases",
+      "lack-of-leadership-support",
+      "skills-gap-in-teams"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "ai-use-cases",
+      "adoption",
+      "leadership",
+      "workforce",
+      "productivity"
+    ],
+    "date": "2025-04-01"
+  },
+  {
+    "id": "63",
+    "title": "Performance Review of Digital Spend: Enabling Strategic Investment and Innovation",
+    "url": "https://www.gov.uk/government/publications/performance-review-of-digital-spend-enabling-strategic-investment-and-innovation",
+    "description": "This UK government review analyses how digital initiatives are funded and finds that current funding processes are overly complex, deprioritise service maintenance and lack outcome metrics or digital expertise. It recommends testing new funding mechanisms such as staged and portfolio-based models, upskilling departments with DDaT training and supplementary guidance, and developing robust outcome metrics and evaluation plans to enable strategic digital investment by 2027\u3010147967831884530\u2020L144-L161\u3011\u3010147967831884530\u2020L167-L200\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "technical-debt-from-legacy-systems",
+      "lack-of-outcome-metrics",
+      "lack-of-leadership-support"
+    ],
+    "personas": [
+      "public-sector/government",
+      "commissioners/asset owner",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "digital-funding",
+      "innovation",
+      "government",
+      "maintenance",
+      "training"
+    ],
+    "date": "2025-03-01"
+  },
+  {
+    "id": "64",
+    "title": "Playbook for Project Management in Data Science and Artificial Intelligence Projects",
+    "url": "https://www.pmi.org/learning/library/playbook-data-science-ai-projects",
+    "description": "This PMI playbook provides tailored project management guidance for data\u2011science and AI projects, noting that traditional methods are ineffective due to high experimentation, continuous model maintenance and heavy data preparation. It stresses the need for clear success metrics, cross\u2011functional teams and specialist training to address skills gaps, and highlights the importance of realistic ROI expectations and fit\u2011for\u2011purpose practices to improve project outcomes\u301032573815226590\u2020L324-L432\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-data-skills-and-ai-adoption",
+      "unclear-scope-and-goals",
+      "data-quality-issues"
+    ],
+    "personas": [
+      "consultant",
+      "contractor",
+      "academia/researcher"
+    ],
+    "tags": [
+      "project-management",
+      "data-science",
+      "AI",
+      "playbook",
+      "training"
+    ],
+    "date": "2020-11-01"
+  },
+  {
+    "id": "65",
+    "title": "Leading AI Transformation: Organisational Strategies for Project Professionals",
+    "url": "https://www.pmi.org/learning/library/leading-ai-transformation-organisational-strategies",
+    "description": "PMI\u2019s 2025 guide positions AI transformation as an organisation\u2011wide evolution rather than a technology project. It urges PMOs to shift from taskmaster to strategic enabler, establishing governance frameworks, mapping AI capabilities and aligning performance metrics with business value. The guide highlights the need for cross\u2011functional change management and risk management for data privacy, bias and ethics\u3010773241878973955\u2020L44-L100\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-leadership-support",
+      "lack-of-strategic-alignment",
+      "insufficient-change-management"
+    ],
+    "personas": [
+      "consultant",
+      "contractor",
+      "public-sector/government"
+    ],
+    "tags": [
+      "AI-transformation",
+      "project-management",
+      "strategy",
+      "governance",
+      "risk-management"
+    ],
+    "date": "2025-05-01"
+  },
+  {
+    "id": "66",
+    "title": "Sustainability in the Age of AI: The Integration Imperative",
+    "url": "https://www.pmi.org/learning/library/sustainability-age-of-ai-integration-imperative",
+    "description": "This PMI report argues that integrating AI with sustainability strategies is essential to maximise CO\u2082 reduction and resource efficiency. Leaders using AI for sustainability cut emissions by 26% versus 3% for laggards, but success requires strong data foundations, leadership readiness and strategic prioritisation. The report warns that AI\u2019s own environmental footprint must be managed and advocates a synergistic approach where early AI\u2011driven sustainability gains fuel further improvements\u3010116444256628278\u2020L130-L210\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "environmental-impact-of-ai",
+      "lack-of-data-for-sustainability",
+      "lack-of-leadership-support"
+    ],
+    "personas": [
+      "public-sector/government",
+      "commissioners/asset owner",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "sustainability",
+      "AI",
+      "emissions",
+      "integration",
+      "leadership"
+    ],
+    "date": "2025-03-01"
+  },
+  {
+    "id": "67",
+    "title": "Realising the Generative AI Opportunity: Embracing Change to Create Business Value",
+    "url": "https://hbr.org/webinar/2025/realising-the-generative-ai-opportunity",
+    "description": "Based on a 2025 survey of business leaders, this AWS\u2011sponsored HBR report finds that while 60% see generative AI as a priority, only 48% feel ready and 83% worry laggards will fall behind. The main barriers are ethical, legal, cybersecurity and customer impacts; respondents emphasise the need for risk management, improved data and technology infrastructure, clear guidelines and change management. The report encourages training and iterative feedback loops and cautions organisations against rushing into poorly suited AI solutions\u3010697408768470425\u2020L120-L206\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "legal-and-compliance-uncertainty",
+      "cybersecurity-and-privacy",
+      "insufficient-data-infrastructure"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor",
+      "public-sector/government"
+    ],
+    "tags": [
+      "generative-ai",
+      "business-value",
+      "survey",
+      "risk-management",
+      "readiness"
+    ],
+    "date": "2025-05-01"
+  },
+  {
+    "id": "68",
+    "title": "Reclaiming Humanity in a World of AI",
+    "url": "https://agency4d.com/research/reclaiming-humanity-in-a-world-of-ai",
+    "description": "Agency4D\u2019s 2025 paper warns that AI\u2011driven automation and performance monitoring are eroding trust and human connection in workplaces. It reports that nearly half of employees feel less trusted and fear their jobs will be obsolete, and that reduced spontaneous interaction leads to isolation and disengagement. The authors advocate human\u2011centric design, branded environments and mentorship to foster belonging, enhance engagement and balance AI efficiency with emotional intelligence\u3010837572347481575\u2020L26-L50\u3011.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "workplace-alienation",
+      "fear-of-ai-displacement",
+      "lack-of-psychological-safety"
+    ],
+    "personas": [
+      "contractor",
+      "consultant",
+      "public-sector/government"
+    ],
+    "tags": [
+      "human-centric-design",
+      "workplace-culture",
+      "AI",
+      "trust",
+      "employee-experience"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "69",
+    "title": "Reconfiguring Work: Change Management in the Age of Generative AI",
+    "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/reconfiguring-work-change-management-in-the-age-of-generative-ai",
+    "description": "This McKinsey article outlines a framework for leading change in the generative\u2011AI era. It urges leaders to craft a \u201cNorth Star\u201d focused on outcomes rather than tools, build trust via data governance and oversight, reimagine workflows by embedding AI and empowering employees, and provide training and support to manage uneven adoption. Success depends on mobilising employees to co\u2011create AI products rather than simply deploying technology\u3010114016057704341\u2020L32-L88\u3011\u3010114016057704341\u2020L152-L300\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "insufficient-change-management",
+      "lack-of-employee-engagement",
+      "data-governance-issues"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor",
+      "consultant"
+    ],
+    "tags": [
+      "change-management",
+      "generative-ai",
+      "workflows",
+      "employee-training",
+      "governance"
+    ],
+    "date": "2025-08-01"
+  },
+  {
+    "id": "70",
+    "title": "Response to Consultation on the Responsible Use of AI Professional Standard",
+    "url": "https://www.rics.org/standards/responsible-use-of-ai-consultation-response",
+    "description": "This report summarises feedback on RICS\u2019s draft professional standard for the responsible use of AI in surveying. Respondents strongly supported the standard but called for clearer definitions of \u201cmaterial impact\u201d, practical tools for record\u2011keeping and risk registers, and more guidance and training. It notes a particular need to support small firms and emphasises upskilling and practical guidance alongside the high\u2011level standard\u3010784077118918977\u2020L150-L187\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-guidance-and-standards",
+      "training-and-skills-gap",
+      "compliance-burden"
+    ],
+    "personas": [
+      "regulator",
+      "consultant",
+      "small-to-medium-enterprises"
+    ],
+    "tags": [
+      "RICS",
+      "consultation",
+      "professional-standard",
+      "responsible-AI",
+      "surveying"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "71",
+    "title": "Responsible Use of Artificial Intelligence in Surveying Practice",
+    "url": "https://www.rics.org/content/dam/ricsglobal/documents/standards/Responsible-use-of-artificial-intelligence-in-surveying-practice_September-2025.pdf",
+    "description": "This RICS global professional standard effective March\u00a02026 provides a framework for responsible AI use in surveying. It sets out baseline knowledge requirements, practice management rules, data and system governance, procurement due diligence, risk management and record\u2011keeping, outputs and assurance, explainability and ongoing development. The standard emphasises documenting AI systems that materially impact service delivery, maintaining risk registers, applying professional scepticism and balancing AI\u2019s potential with public interest\u3010533559006120077\u2020L164-L327\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "lack-of-governance-frameworks",
+      "ethical-risks-and-accountability",
+      "lack-of-standardised-practices"
+    ],
+    "personas": [
+      "regulator",
+      "consultant",
+      "commissioners/asset owner"
+    ],
+    "tags": [
+      "professional-standard",
+      "responsible-AI",
+      "surveying",
+      "governance",
+      "RICS"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "72",
+    "title": "RICS Artificial Intelligence in Construction Report 2025",
+    "url": "https://www.rics.org/insights/artificial-intelligence-in-construction-report-2025",
+    "description": "This 2025 RICS survey finds that AI adoption in construction remains limited\u201445% of organisations report no AI use, 34% are piloting and less than 1% have fully embedded AI. Major barriers include a lack of skilled personnel (46%), integration with existing systems, poor data quality, high implementation costs, unclear ROI and a lack of standards and guidance. Participants believe AI could improve progress monitoring, scheduling, resource optimisation and design optioneering, but emphasise the need for skills training, guidance and clear investment strategies\u3010602649442343348\u2020L100-L180\u3011\u3010602649442343348\u2020L225-L370\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "lack-of-skilled-personnel",
+      "integration-with-legacy-systems",
+      "data-quality-issues"
+    ],
+    "personas": [
+      "contractor",
+      "commissioners/asset owner",
+      "public-sector/government"
+    ],
+    "tags": [
+      "construction",
+      "AI-adoption",
+      "survey",
+      "skills",
+      "standards"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "73",
+    "title": "Securing AI: Key Risks, Threats and Countermeasures for Enterprise Resilience",
+    "url": "https://www.boozallen.com/insights/ai/securing-ai-key-risks-threats-countermeasures-report.html",
+    "description": "Booz Allen\u2019s 2024 report highlights that AI\u2019s ubiquity creates new vulnerabilities and that organisations lack professionals who understand AI security. The distributed, non\u2011deterministic nature of AI models makes anomaly detection and traditional security controls less effective. The report urges enterprises to create central AI security teams, adopt cross\u2011functional governance and design multi\u2011layered defences to manage threats such as prompt injection, shadow AI and adversarial attacks\u3010721856488979368\u2020L31-L59\u3011\u3010721856488979368\u2020L94-L129\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "cybersecurity-and-privacy",
+      "lack-of-skilled-personnel",
+      "shadow-ai-and-lack-of-governance"
+    ],
+    "personas": [
+      "public-sector/government",
+      "technology-provider",
+      "commissioners/asset owner"
+    ],
+    "tags": [
+      "AI-security",
+      "risk-management",
+      "cybersecurity",
+      "governance",
+      "skills-gap"
+    ],
+    "date": "2024-12-01"
+  },
+  {
+    "id": "74",
+    "title": "Teal Book Chapter 24: Information and Data Management \u2013 Government Project Delivery",
+    "url": "https://projectdelivery.gov.uk/teal-book/home/part-e-planning-and-control/chapter-24-information-and-data-management",
+    "description": "This chapter of the UK government\u2019s Teal Book explains that effective information and data management ensures reliable, secure and timely data for planning and decision\u2011making. It calls for managing information in line with principles of transparency, accountability and fairness, assigning ownership of information assets, and paying special attention to data protection and cyber security\u3010160676428422882\u2020L48-L76\u3011. The guidance defines information and data management as the oversight of people, processes and technology supporting creation, use and disposal of information and stresses that chief data officers and portfolio leaders are accountable for governance and compliance\u3010160676428422882\u2020L143-L160\u3011.",
+    "barrier_category": "data-pooling-and-interoperability",
+    "barriers": [
+      "lack-of-data-governance",
+      "data-quality-issues",
+      "fragmented-data-sources"
+    ],
+    "personas": [
+      "public-sector/government",
+      "contractor",
+      "asset operator/maintainer"
+    ],
+    "tags": [
+      "information-management",
+      "data-governance",
+      "project-delivery",
+      "government",
+      "Teal-Book"
+    ],
+    "date": "2024-07-29"
+  },
+  {
+    "id": "75",
+    "title": "Ten Red Flags Signalling Your Analytics Program Will Fail",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/ten-red-flags-signaling-your-analytics-program-will-fail",
+    "description": "This McKinsey/QuantumBlack article warns that many analytics initiatives stall because executives lack a clear vision for advanced analytics, fail to determine the value of initial use cases, and pursue pilots without an overall strategy. Other red flags include poorly defined roles and responsibilities, the absence of analytics \u201ctranslators\u201d to bridge business and technical teams, and the isolation of analytics capabilities from the core business\u3010908518803498537\u2020L120-L142\u3011\u3010908518803498537\u2020L288-L339\u3011. The authors recommend executive education, careful use\u2011case prioritisation, defined roles and translator training, and embedding analytics into operations to scale value.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-leadership-support",
+      "unclear-scope-and-goals",
+      "lack-of-skilled-personnel"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "consultant",
+      "contractor"
+    ],
+    "tags": [
+      "analytics",
+      "failure-signals",
+      "strategy",
+      "talent",
+      "scaling"
+    ],
+    "date": "2018-01-01"
+  },
+  {
+    "id": "76",
+    "title": "The Adoption of Artificial Intelligence in Firms: New Evidence for Policymaking",
+    "url": "https://doi.org/10.1787/f9ef33c3-en",
+    "description": "This 2025 OECD/BCG/INSEAD study surveys 840 enterprises across G7 countries and Brazil to understand AI adoption. It finds that scarcity of specialised AI skills and immature data infrastructures are major obstacles, leading firms to value policies that develop human capital and improve public data quality and access\u3010795960691918032\u2020L607-L647\u3011. Businesses also want collaboration with universities and institutions, streamlined access to public data, guidance on vendor selection, and clear accountability frameworks\u3010795960691918032\u2020L650-L662\u3011\u3010795960691918032\u2020L692-L729\u3011. The report suggests policymakers enhance training programmes, data quality and diffusion institutions while measuring the impact of support programmes.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "lack-of-skilled-personnel",
+      "data-quality-issues",
+      "uncertain-return-on-investment"
+    ],
+    "personas": [
+      "public-sector/government",
+      "commissioners/asset owner",
+      "consultant"
+    ],
+    "tags": [
+      "AI-adoption",
+      "policy",
+      "survey",
+      "skills",
+      "data-governance"
+    ],
+    "date": "2025-01-01"
+  },
+  {
+    "id": "77",
+    "title": "The Answer Is AI, Now What\u2019s the Question? \u2013 Highlights from MPA\u2019s 2024 Conference",
+    "url": "https://majorprojects.org/events/2024-annual-conference-ai",
+    "description": "This Major Projects Association highlights report summarises discussions on how AI can improve major project delivery. Speakers stressed that generative AI\u2019s potential depends on well\u2011structured data and digital processes and that adoption must balance opportunities and risks\u3010934886723047114\u2020L24-L47\u3011\u3010934886723047114\u2020L146-L156\u3011. The UK Government\u2019s AI incubator is developing tools like Caddy, MedGuard and Lex to enhance public services and build trust\u3010934886723047114\u2020L111-L134\u3011. The report urges project professionals to identify AI \u201csweet spots\u201d, manage unintended consequences, and invest in skills to use AI responsibly.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "data-quality-issues",
+      "legal-and-compliance-uncertainty",
+      "lack-of-skilled-personnel"
+    ],
+    "personas": [
+      "public-sector/government",
+      "contractor",
+      "commissioners/asset owner"
+    ],
+    "tags": [
+      "major-projects",
+      "AI-conference",
+      "public-sector",
+      "innovation",
+      "skills"
+    ],
+    "date": "2024-10-15"
+  },
+  {
+    "id": "78",
+    "title": "The CEO\u2019s Guide to Generative AI \u2013 Second Edition",
+    "url": "https://www.ibm.com/thought-leadership/institute-business-value/report/ceos-guide-generative-ai",
+    "description": "IBM\u2019s 2024 CEO guide argues that generative AI can drive business model innovation by unlocking new data, insights, markets and product opportunities. It urges leaders to choose strategic use cases, strengthen data governance and responsible AI practices, and invest in talent rather than spreading resources too thin\u3010628774751318677\u2020L63-L83\u3011. Drawing on interviews with over 10,000 CEOs, the guide offers action items across digital product engineering, automation, model optimisation, open innovation, risk management, sustainability and talent, emphasising that success requires alignment between technology and business strategy\u3010628774751318677\u2020L63-L112\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-strategic-alignment",
+      "data-governance-issues",
+      "skills-gap-in-teams"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor",
+      "technology-provider"
+    ],
+    "tags": [
+      "generative-ai",
+      "leadership",
+      "strategy",
+      "innovation",
+      "CEO"
+    ],
+    "date": "2024-11-01"
+  },
+  {
+    "id": "79",
+    "title": "The EPOCH of AI: Human\u2013Machine Complementarities at Work",
+    "url": "https://www.mit.edu/epoch-of-ai",
+    "description": "This MIT Sloan paper reframes AI\u2019s labour impact by focusing on human capabilities that complement AI. It introduces the EPOCH index, a risk\u2011of\u2011substitution score and a potential\u2011for\u2011augmentation score to evaluate tasks and occupations\u3010130505292118924\u2020L10-L29\u3011. Analysis shows tasks and jobs are shifting toward more human\u2011intensive work between 2016 and 2024; occupations with high EPOCH scores saw employment growth, while those with high substitution or augmentation scores experienced declines\u3010130505292118924\u2020L24-L35\u3011. The study argues for investing in human\u2011centric skills to harness AI\u2019s complementary potential.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "fear-of-ai-displacement",
+      "lack-of-human-centric-design",
+      "skills-gap-in-teams"
+    ],
+    "personas": [
+      "academia/researcher",
+      "commissioners/asset owner",
+      "public-sector/government"
+    ],
+    "tags": [
+      "human-machine-complementarity",
+      "employment",
+      "EPOCH-index",
+      "skills",
+      "labour-market"
+    ],
+    "date": "2024-11-01"
+  },
+  {
+    "id": "80",
+    "title": "The Future of Major Programme Delivery \u2013 Digitalisation, Data and AI",
+    "url": "https://www.macegroup.com/insights/future-of-major-programme-delivery",
+    "description": "Mace\u2019s 2025 report analyses data from over 5,000 mega\u2011projects and argues that digitalisation, data and AI can break the cycle of over\u2011budget, late projects. Integrating AI and digital tools provides boards with real\u2011time insights, enables reference\u2011class forecasting and digital twins for scenario testing, and automates procurement and scheduling\u3010566300007784194\u2020L4270-L4293\u3011\u3010566300007784194\u2020L4324-L4349\u3011. However, the report notes that construction remains one of the least digitised industries and stresses that successful adoption depends on collaborative delivery models, clear governance, trust and integrated teams\u3010566300007784194\u2020L4300-L4344\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "lack-of-digitalisation",
+      "integration-with-legacy-systems",
+      "fragmented-supply-chains"
+    ],
+    "personas": [
+      "contractor",
+      "commissioners/asset owner",
+      "public-sector/government"
+    ],
+    "tags": [
+      "major-projects",
+      "digitalisation",
+      "AI",
+      "construction",
+      "collaboration"
+    ],
+    "date": "2025-09-01"
+  },
+  {
+    "id": "81",
+    "title": "The GenAI Divide: State of AI in Business 2025",
+    "url": "https://project-nanda.mit.edu/genai-divide-2025",
+    "description": "MIT\u2019s Project NANDA report finds that despite US$30\u201340\u00a0billion invested in generative AI, 95% of organisations see no return because most pilots stall before scaling. Generic tools like ChatGPT are widely used but mainly boost individual productivity; custom enterprise solutions often fail due to brittle workflows and lack of contextual learning\u3010424459481483752\u2020L45-L68\u3011. The study identifies a GenAI Divide: a small minority of firms gain value by focusing on process\u2011specific, learning\u2011capable systems, while most fall behind; factors include limited disruption, the \u201centerprise paradox\u201d, investment bias towards visible functions and the success of external partnerships\u3010424459481483752\u2020L72-L86\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "lack-of-clear-value-realisation",
+      "pilot-to-scale-gap",
+      "misaligned-investment"
+    ],
+    "personas": [
+      "commissioners/asset owner",
+      "contractor",
+      "technology-provider"
+    ],
+    "tags": [
+      "generative-ai",
+      "business-value",
+      "implementation",
+      "scaling",
+      "learning"
+    ],
+    "date": "2025-07-01"
+  },
+  {
+    "title": "How Industrialized Construction is building tomorrow (IFS Cloud)",
+    "url": "https://www.ifs.com/industries/construction-industrialized",
+    "description": "IFS\u2019s whitepaper explains industrialized construction, which shifts work offsite through modular, prefabricated, panelized and additive methods. The paper highlights the benefits of standardizing materials and using offsite facilities: improved quality and output, faster project delivery, more predictable timelines and reduced costs\u3010416713841231618\u2020L68-L91\u3011. It notes that only about a third of US companies plan to adopt modular/offsite manufacturing and that half of current users deliver under 10% of projects using such methods, but adoption is growing in Europe where the modular market is projected to reach nearly $28\u202fbn by 2030\u3010416713841231618\u2020L210-L224\u3011. IFS argues that legacy IT systems hinder adoption and promotes its integrated cloud ERP as a hybrid platform for traditional and offsite construction\u3010416713841231618\u2020L235-L259\u3011.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "Legacy IT systems don\u2019t support industrialized construction processes",
+      "Low adoption of modular and offsite methods due to fragmented data and processes",
+      "Limited integration of supply\u2011chain and manufacturing technologies with construction workflows"
+    ],
+    "personas": [
+      "Construction PMs / Project Directors",
+      "Enterprise Architects / CIOs",
+      "Procurement & Supply Chain Managers"
+    ],
+    "tags": [
+      "industrialized-construction",
+      "modular",
+      "prefabrication",
+      "construction",
+      "offsite"
+    ],
+    "date": "2023-09",
+    "id": "82"
+  },
+  {
+    "title": "What are AI guardrails? (McKinsey Explainers)",
+    "url": "https://www.mckinsey.com/capabilities/quantumblack/our-insights/what-are-ai-guardrails",
+    "description": "McKinsey\u2019s explainer likens AI guardrails to highway barriers that keep generative AI aligned with organisational policies. It explains that guardrails check, filter and correct AI outputs to protect privacy, remove toxic or misleading content and ensure regulatory compliance\u3010325606777698962\u2020L3-L64\u3011. The article categorises guardrails by risk (appropriateness, hallucination, regulatory and alignment) and describes a four\u2011component architecture: checker, corrector, rail and guard\u3010325606777698962\u2020L65-L116\u3011. It advises designing guardrails with multidisciplinary teams, setting content\u2011quality metrics, using modular and dynamic approaches, anchoring to regulatory frameworks and developing roles accountable for AI transparency and fairness\u3010325606777698962\u2020L227-L276\u3011.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "Lack of governance frameworks to monitor and correct AI outputs",
+      "Insufficient awareness of AI safety risks (hallucinations, toxic content, data leakage)",
+      "Limited capabilities to integrate guardrails into existing technology stacks"
+    ],
+    "personas": [
+      "Risk & Compliance Managers",
+      "AI Engineers / Data Scientists",
+      "Policy & Ethics Leads"
+    ],
+    "tags": [
+      "AI-guardrails",
+      "responsible-AI",
+      "risk-management",
+      "compliance"
+    ],
+    "date": "2024-11",
+    "id": "83"
+  },
+  {
+    "title": "Delivering on construction productivity is no longer optional (McKinsey)",
+    "url": "https://www.mckinsey.com/industries/capital-projects-and-infrastructure/our-insights/delivering-on-construction-productivity-is-no-longer-optional",
+    "description": "McKinsey\u2019s article warns that global construction spending must rise from $13\u202ftrillion in 2023 to $22\u202ftrillion by 2040, but productivity has only improved 10\u202f% since 2000 and has even declined since 2020\u301026989720595350\u2020L10-L39\u3011. It notes that labour shortages and stagnant productivity could leave a $40\u202ftrillion output shortfall by 2040 and that workforce growth in advanced economies is near zero\u301026989720595350\u2020L173-L187\u3011. The paper argues that doubling productivity growth is essential to meet demand and calls for systemic changes in skills, technology adoption and project delivery practices.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Chronic labour shortages and ageing workforce in construction",
+      "Stagnant productivity and slow adoption of productivity\u2011enhancing technologies",
+      "Fragmented project delivery practices that impede efficiency"
+    ],
+    "personas": [
+      "Policy Makers / Infrastructure Leaders",
+      "Construction CEOs & COOs",
+      "Training & Workforce Development Leads"
+    ],
+    "tags": [
+      "construction-productivity",
+      "labour-shortage",
+      "infrastructure",
+      "net-zero"
+    ],
+    "date": "2024-08",
+    "id": "84"
+  },
+  {
+    "title": "The agentic organization: contours of the next paradigm for the AI era",
+    "url": "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/the-agentic-organization-contours-of-the-next-paradigm-for-an-ai-era",
+    "description": "McKinsey describes the \u2018agentic organization\u2019 where humans collaborate with autonomous AI agents across virtual and physical domains. It outlines five pillars\u2014business model, operating model, governance, workforce & culture, and technology & data\u2014and illustrates how AI agents enable hyper\u2011personalisation, AI\u2011first workflows and proprietary data advantages\u3010452739313180013\u2020L21-L38\u3011. The article emphasises embedding guardrail, critic and compliance agents into workflows, maintaining human oversight, and developing new roles such as M\u2011shaped supervisors and T\u2011shaped experts to orchestrate agentic teams\u3010452739313180013\u2020L221-L266\u3011\u3010452739313180013\u2020L273-L333\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Lack of strategic vision to redesign business models and workflows for an AI\u2011first era",
+      "Inadequate governance frameworks to manage autonomous agents and maintain human oversight",
+      "Skills gaps and cultural resistance to new roles (M\u2011shaped supervisors, T\u2011shaped experts)"
+    ],
+    "personas": [
+      "C\u2011suite Executives",
+      "Transformation & Change Directors",
+      "HR & Talent Development Leads"
+    ],
+    "tags": [
+      "agentic-organization",
+      "AI-agents",
+      "operating-model",
+      "governance",
+      "future-of-work"
+    ],
+    "date": "2025-09",
+    "id": "85"
+  },
+  {
+    "title": "Mind the (Investment) gap: Funding and delivering capital projects amidst fiscal constraints",
+    "url": "https://www.ey.com/en_uk/infrastructure/mind-the-investment-gap",
+    "description": "This EY report warns that governments face a massive shortfall in capital investment: the UK alone has around \u00a31.6\u202ftrillion of unfunded programmes to 2040 and high inflation and borrowing costs could add another \u00a31\u202ftrillion\u3010872789918889779\u2020L9-L27\u3011. The authors propose three categories of solutions: unlock alternative private funding by adapting models such as concessions, build\u2011operate\u2011transfer and design\u2011build\u2011finance\u2011operate\u2011maintain\u3010872789918889779\u2020L296-L357\u3011; deliver more for less by focusing on design, procurement and digital tools to cut costs by 20\u201325\u202f% and accelerate projects\u3010872789918889779\u2020L411-L429\u3011; and unleash new technologies like AI for more accurate spend classification and risk management, which could yield 10\u202f% productivity savings\u3010872789918889779\u2020L46-L50\u3011.",
+    "barrier_category": "procurement-and-commercial-models",
+    "barriers": [
+      "Large funding gaps for infrastructure and capital projects due to fiscal constraints and cost inflation",
+      "Limited use of alternative financing models (PPP, DBFOM, RAB) and private investment",
+      "Inefficient project delivery and lack of technology adoption leading to cost overruns"
+    ],
+    "personas": [
+      "Government Infrastructure Policy Makers",
+      "Public\u2011Private Partnership Managers",
+      "Capital Programme Directors"
+    ],
+    "tags": [
+      "infrastructure-funding",
+      "capital-projects",
+      "PPP",
+      "design-optimisation",
+      "AI-cost-management"
+    ],
+    "date": "2024-09",
+    "id": "86"
+  },
+  {
+    "title": "How People Use ChatGPT (NBER Working Paper)",
+    "url": "https://www.nber.org/papers/w34255",
+    "description": "This working paper analyses anonymised ChatGPT conversations from May 2024 to June 2025 to understand consumer usage. By July 2025 the chatbot had around 700\u202fmillion users sending 18\u202fbillion messages a week, representing roughly 10\u202f% of the global adult population\u3010526109386878827\u2020L53-L59\u3011. Early adopters were mostly male but the gender gap has narrowed; adoption is growing faster in lower\u2011income countries. Non\u2011work messages account for more than 70\u202f% of conversations, while work messages primarily involve practical guidance, information seeking and writing tasks\u3010526109386878827\u2020L58-L76\u3011. ChatGPT is used mainly for decision support in knowledge\u2011intensive jobs, highlighting the need for digital literacy and ethical guidelines to maximise value.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Unequal adoption of AI tools across demographics and regions",
+      "Limited digital literacy and understanding of how to integrate AI into work tasks",
+      "Lack of policies to guide ethical and responsible use of chatbots"
+    ],
+    "personas": [
+      "HR & Learning Development Leaders",
+      "Knowledge Workers",
+      "Policy Analysts"
+    ],
+    "tags": [
+      "ChatGPT",
+      "LLM-adoption",
+      "digital-literacy",
+      "global-trends"
+    ],
+    "date": "2025-09",
+    "id": "87"
+  },
+  {
+    "title": "Transforming Construction \u2013 Smarter, greener, together (NEC)",
+    "url": "https://www.neccontract.com/news/media-and-insights/transforming-construction-smarter-greener-together-2025",
+    "description": "This NEC research report explores how the built environment sector is being reshaped by digitalisation, sustainability and collaboration. It finds widespread optimism: 76\u202f% of respondents agree the industry is making good progress in digital transformation\u3010750022331540901\u2020L121-L141\u3011. However, transformation requires more than technology \u2013 it demands contractual frameworks that encourage partnership, sustained training programmes and leadership that treats sustainability and collaboration as core business practices\u3010750022331540901\u2020L24-L49\u3011. The report highlights that digital tools like BIM, digital twins and AI\u2011powered project management are accelerating innovation, but progress remains uneven and cultural change is essential\u3010750022331540901\u2020L6-L37\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Fragmented project delivery and adversarial contracting hinder collaboration",
+      "Lack of training and organisational change to embed digital and sustainability practices",
+      "Selective adoption of digital tools without integrated roadmaps"
+    ],
+    "personas": [
+      "Project Directors & Programme Managers",
+      "Contracts & Commercial Managers",
+      "Sustainability & Digital Transformation Leads"
+    ],
+    "tags": [
+      "construction",
+      "digital-transformation",
+      "collaboration",
+      "sustainability",
+      "BIM"
+    ],
+    "date": "2025-09",
+    "id": "88"
+  },
+  {
+    "title": "Identifying and scaling AI use cases (OpenAI Guide)",
+    "url": "https://openai.com/enterprise/resources/identifying-and-scaling-ai-use-cases",
+    "description": "OpenAI\u2019s guide helps organisations find and scale AI use cases. It notes that AI adoption is accelerating but only 1\u202f% of companies have reached maturity and leaders achieve faster revenue growth and higher returns\u3010268606128043418\u2020L23-L60\u3011. The guide proposes a three\u2011step process: identify opportunities by focusing on repetitive tasks, skill bottlenecks and ambiguous problems; teach employees six \u2018use case primitives\u2019 (content creation, automation, research, coding, data analysis and ideation/strategy) to inspire discovery\u3010268606128043418\u2020L242-L264\u3011; and prioritise use cases through workshops and hackathons, with leadership guidance and peer\u2011led learning\u3010268606128043418\u2020L214-L230\u3011. It emphasises that empowering employees to find practical use cases and cultivating an AI\u2011first culture drives faster, more scalable adoption.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Lack of structured processes to identify and prioritise AI use cases",
+      "Employees lack understanding of AI capabilities and how to apply them",
+      "Insufficient leadership engagement and cultural support for AI adoption"
+    ],
+    "personas": [
+      "AI & Digital Leads",
+      "Product & Innovation Managers",
+      "Team Leaders & Coaches"
+    ],
+    "tags": [
+      "AI-use-cases",
+      "user-adoption",
+      "AI-primitives",
+      "workshops"
+    ],
+    "date": "2025-04",
+    "id": "89"
+  },
+  {
+    "title": "AI Value Creators: Beyond the Generative AI User Mindset",
+    "url": "https://www.oreilly.com/library/view/ai-value-creators/9781098168346/",
+    "description": "This O\u2019Reilly handbook by Rob Thomas, Paul Zikopoulos and Kate Soule argues that organisations must move from adding AI (+AI) to becoming AI\u2011plus (AI+) businesses. The authors introduce a \u2018rebooted AI Ladder\u2019 where data infrastructure, automation and agentic workflows become foundational and advise leaders to rethink their mental models, investment classifications and workflows\u3010960384595888404\u2020L1600-L1694\u3011. The book teaches readers to recognise AI\u2019s transformative potential, navigate ethical and operational challenges, align AI with strategy through case studies and implement actionable strategies to build a culture of AI value creation\u3010960384595888404\u2020L36-L45\u3011.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Leaders still treat AI as a bolt\u2011on rather than reimagining business models and workflows",
+      "Lack of robust data infrastructure and information architecture to support AI+",
+      "Limited understanding of how to align AI strategy with organisational values and ethics"
+    ],
+    "personas": [
+      "Chief Executives & Board Members",
+      "Strategy & Innovation Directors",
+      "AI & Data Architects"
+    ],
+    "tags": [
+      "AI-strategy",
+      "AI-Ladder",
+      "AI+",
+      "organisational-change",
+      "ethics"
+    ],
+    "date": "2025-04",
+    "id": "90"
+  }
+  ,
+  {
+    "id": "91",
+    "title": "The Middle Market is Embracing AI to Drive Innovation and Efficiency",
+    "url": "https://rsmus.com/insights/services/digital-transformation/rsm-middle-market-ai-survey-2025",
+    "description": "RSM’s Middle Market AI Survey 2025 reveals that AI use in mid‑size firms is nearly universal: 91% of respondents now use AI and generative AI (up from 78% in 2024). The survey reports that 79% have a formal AI adoption strategy, and 25% have fully integrated generative AI across core operations while 43% have partially integrated it【291431902241745†L87-L100】【291431902241745†L127-L163】. Popular use cases include text generation and summarisation (49%), workflow development (45%), forecasting and sales/marketing (40%) and data analytics (58%), but many firms still struggle with poor data quality, lack of in‑house expertise, and unclear governance; most are increasing investment while focusing on human oversight, training and regulatory compliance【291431902241745†L255-L329】【291431902241745†L595-L669】.",
+    "barrier_category": "digital-and-tech-constraints",
+    "barriers": [
+      "Poor data quality and unstructured data limit the effectiveness of generative AI",
+      "Scarcity of skilled AI talent and lack of employee training hinders adoption",
+      "Uncertain and fragmented regulations require human oversight and compliance"
+    ],
+    "personas": [
+      "Business Leaders",
+      "Digital Transformation Directors",
+      "AI Governance Leads"
+    ],
+    "tags": [
+      "AI-survey",
+      "Generative-AI",
+      "Middle-Market",
+      "AI-strategy",
+      "Human-oversight"
+    ],
+    "date": "2025-06"
+  },
+  {
+    "id": "92",
+    "title": "These Human Capabilities Complement AI’s Shortcomings",
+    "url": "https://mitsloan.mit.edu/ideas-made-to-matter/these-human-capabilities-complement-ais-shortcomings",
+    "description": "This MIT Sloan article summarises research by Isabella Loaiza and Roberto Rigobon, which introduces the EPOCH framework – Empathy & emotional intelligence, Presence & connectedness, Opinion/judgment & ethics, Creativity & imagination, and Hope & vision – to identify human capabilities that complement AI. Using O*NET task data, the authors find that tasks relying on these human capabilities are less likely to be automated and correlate with employment growth, whereas tasks with high automation or augmentation risk are associated with job losses【288162455168511†L108-L129】【288162455168511†L176-L183】. The article emphasises that AI struggles with subjective beliefs and creativity, so organisations should design AI strategies that augment and upskill workers rather than replace them【288162455168511†L60-L69】【288162455168511†L176-L200】.",
+    "barrier_category": "skill-and-culture-gaps",
+    "barriers": [
+      "Overlooking uniquely human capabilities such as empathy, judgment and creativity in AI deployment",
+      "Prioritising automation over augmentation may erode worker morale and resilience",
+      "Insufficient upskilling opportunities to develop EPOCH capabilities alongside AI adoption"
+    ],
+    "personas": [
+      "HR Leaders",
+      "Learning & Development Officers",
+      "AI Ethicists",
+      "Change Managers"
+    ],
+    "tags": [
+      "Human-Centric-AI",
+      "EPOCH-framework",
+      "Augmentation",
+      "Future-of-work"
+    ],
+    "date": "2025-06"
+  },
+  {
+    "id": "93",
+    "title": "Top Strategic Technology Trends for 2025: Agentic AI",
+    "url": "https://www.gartner.com/en/documents/agentic-ai-top-strategic-technology-trend-2025",
+    "description": "Gartner’s 2025 technology trends report highlights agentic AI – goal‑driven software entities that autonomously plan and act using memory, planning and tooling. Agentic AI will integrate into assistants, SaaS platforms and IoT devices and is expected to appear in 33% of enterprise applications and 20% of digital storefront interactions by 2028【476239108818402†L42-L50】【476239108818402†L104-L119】. The report notes that agentic AI offers significant productivity gains but poses risks: unknown bots and low‑code agents may proliferate, poor data quality and architecture hinder development, security threats such as smart malware and prompt injection become more severe, and employees may resent autonomous systems【476239108818402†L288-L326】. Gartner advises organisations to implement clear guardrails, robust data governance, and human‑led oversight when integrating agentic AI into workflows【476239108818402†L290-L370】.",
+    "barrier_category": "risk-ethics-and-assurance",
+    "barriers": [
+      "Poor data quality and fragmented architectures impede trustworthy agentic AI development",
+      "Security vulnerabilities from autonomous agents, including smart malware and prompt injection attacks",
+      "Employee resentment and resistance to autonomous systems due to job security concerns"
+    ],
+    "personas": [
+      "Chief Information Officers",
+      "IT Directors",
+      "AI Program Managers",
+      "Risk & Compliance Officers"
+    ],
+    "tags": [
+      "Agentic-AI",
+      "Strategic-Tech-Trend",
+      "Autonomous-Systems",
+      "AI-Governance"
+    ],
+    "date": "2024-10"
+  },
+  {
+    "id": "94",
+    "title": "The State of Digital and AI Readiness",
+    "url": "https://www.thoughtworks.com/insights/reports/state-of-digital-and-ai-readiness-2025",
+    "description": "Thoughtworks’ 2025 report surveys 1,000 senior decision‑makers across public and private sectors to benchmark digital and AI adoption across five pillars: digital products, enterprise modernization, technology management, data modernization and scaling AI【973222572507709†L28-L40】. Organisations are classified as Leaders, Strong Performers, Emerging Players or Late Adopters; only 17% are Leaders who combine a fully aligned business‑technology strategy, continuous modernization and strategic investment, while 29% remain Emerging or Late Adopters【973222572507709†L44-L58】. The report emphasises that misperceptions about readiness are common and stresses the need for integrated strategies, relentless improvement and realistic self‑assessment to achieve digital and AI excellence【973222572507709†L95-L109】.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Lack of alignment between technology strategy and business goals",
+      "Failure to invest continuously in modernization across platforms, data and AI",
+      "Unrealistic self‑assessment leading to complacency or underinvestment in digital readiness"
+    ],
+    "personas": [
+      "Digital Transformation Officers",
+      "Chief Information Officers",
+      "Business Strategists"
+    ],
+    "tags": [
+      "Digital-Readiness",
+      "AI-Readiness",
+      "Strategy-Alignment",
+      "Continuous-Improvement"
+    ],
+    "date": "2025-05"
+  },
+  {
+    "id": "95",
+    "title": "Why do major projects cost so much and take so long? And what can be done about it?",
+    "url": "https://www.ice.org.uk/knowledge-and-resources/policy/major-projects-cost-and-time-policy-paper-2025",
+    "description": "The Institution of Civil Engineers’ 2025 policy paper investigates why major UK infrastructure projects overshoot time and budget. It finds that best practice tools and lessons learnt are not applied consistently across the government’s Major Projects Portfolio【441006281230273†L70-L81】. To improve forecasting and accountability, the paper recommends aggregating assurance evaluation data within the National Infrastructure and Service Transformation Authority (NISTA) and creating a searchable repository of lessons, while adopting should‑cost modelling and reference‑class forecasting【441006281230273†L90-L110】. It calls for stronger governance through continued ministerial responsibility for the Ten Year Infrastructure Strategy and a cabinet committee on infrastructure to coordinate decisions, coupled with better data sharing, streamlined assurance, capability building and public engagement to rebuild trust【441006281230273†L112-L140】.",
+    "barrier_category": "leadership-and-alignment",
+    "barriers": [
+      "Inconsistent application of data and best practice across major projects",
+      "Lack of centralised leadership and cross‑government coordination in infrastructure planning",
+      "Poor forecasting due to political incentives, underestimation and insufficient data sharing"
+    ],
+    "personas": [
+      "Infrastructure Executives",
+      "Project Managers",
+      "Government Policy Makers"
+    ],
+    "tags": [
+      "Infrastructure-Delivery",
+      "Cost-Overruns",
+      "Forecasting",
+      "Governance"
+    ],
+    "date": "2025-09"
+  }
+]
