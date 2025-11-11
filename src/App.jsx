@@ -2,13 +2,88 @@ import React, { useEffect, useMemo, useState } from "react";
 import RESOURCES from "./data/resources.json";
 import THEMES_RAW from "./data/barrier_themes.json";
 import BARRIERS_RAW from "./data/barriers.json";
-import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer} from "recharts";
+import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 import { lighten } from "./utils/colors";
-import { toArray, normalizeResource } from "./utils/dataTransform";
+import { normalizeResource } from "./utils/dataTransform";
 import { parseURLParams, updateBrowserURL } from "./utils/urlState";
+import { logMemoryUsage, logWebVitals, checkPerformanceBudget } from "./utils/performanceMonitor";
+import VirtualizedResourceList from "./components/VirtualizedResourceList";
+import { register as registerServiceWorker } from "./utils/serviceWorkerRegistration";
 
 const PERSONAS = ["Project", "Programme", "Business"];
 const RAD = Math.PI / 180;
+
+// --- Memoized Cell Components for Performance ---
+const ThemeCell = React.memo(({ data, selectedTheme, selectedBarrier, themeFill, toggleTheme, handleMouseEnterTheme, handleMouseLeave }) => {
+  return (
+    <Cell
+      key={data.id}
+      className="cursor-pointer"
+      fill={themeFill(data.id, selectedTheme === data.id)}
+      opacity={
+        selectedTheme
+          ? (selectedTheme === data.id ? 1 : 0.35)
+          : (selectedBarrier ? 0.35 : 1)
+      }
+      onClick={() => toggleTheme(data.id)}
+      onMouseEnter={handleMouseEnterTheme}
+      onMouseLeave={handleMouseLeave}
+    />
+  );
+});
+ThemeCell.displayName = 'ThemeCell';
+
+const BarrierCell = React.memo(({ data, selectedBarrier, selectedTheme, barrierFills, toggleBarrier, handleMouseEnterBarrier, handleMouseLeave }) => {
+  return (
+    <Cell
+      key={data.id}
+      className="cursor-pointer"
+      fill={
+        selectedBarrier === data.id
+          ? (THEME_COLORS[data.themeId] || "#334155")
+          : (barrierFills.get(data.id) || "#e5e7eb")
+      }
+      opacity={
+        selectedBarrier
+          ? (selectedBarrier === data.id ? 1 : 0.3)
+          : (selectedTheme ? (data.themeId === selectedTheme ? 1 : 0.3) : 1)
+      }
+      onClick={() => toggleBarrier(data.id, data.themeId)}
+      onMouseEnter={handleMouseEnterBarrier}
+      onMouseLeave={handleMouseLeave}
+    />
+  );
+});
+BarrierCell.displayName = 'BarrierCell';
+
+// --- Memoized Resource Item Component ---
+const ResourceItem = React.memo(({ resource, BARRIERS, THEME_COLORS, lighten }) => {
+  return (
+    <article className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4 mb-3">
+      <h3 className="font-medium leading-snug">{resource.title}</h3>
+      <p className="text-xs text-slate-600 mt-1 line-clamp-3">{resource.description}</p>
+      <div className="mt-2 flex flex-wrap gap-1 text-xs">
+        {(resource.personas || []).map((p) => <span key={p} className="inline-flex items-center rounded-full px-2.5 py-0.5 bg-slate-100 text-slate-700">{p}</span>)}
+      </div>
+      <div className="mt-2 flex flex-wrap gap-1 text-xs">
+        {(resource.barriers || []).map((b) => {
+          const barrier = BARRIERS.find(x => x.id === b);
+          const label = barrier?.name || b;
+          const color = barrier ? lighten(THEME_COLORS[barrier.themeId] || "#64748b", 0.6) : "#e5e7eb";
+          return (
+            <span key={b} style={{ background: color }} className="inline-flex items-center rounded-full border border-slate-300 px-2 py-0.5">
+              {label}
+            </span>
+          );
+        })}
+      </div>
+      <a className="mt-3 inline-flex text-sm rounded-md px-3 py-1.5 bg-slate-900 text-white hover:bg-slate-800" href={resource.url} target="_blank" rel="noreferrer">
+        Open resource
+      </a>
+    </article>
+  );
+});
+ResourceItem.displayName = 'ResourceItem';
 
 // --- Branding palette (tweak to match PDATF site) ---
 const THEME_COLORS = {
@@ -27,18 +102,22 @@ export default function App() {
   const [selectedBarrier, setSelectedBarrier] = useState(null); // string | null (single)
   const [selectedPersonas, setSelectedPersonas] = useState([]);
   const [hoveredLayer, setHoveredLayer] = useState(null); // 'theme' | 'barrier' | null
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
 
   // Header ref and dynamic height effect
   const headerRef = React.useRef(null);
+
+  // Memoize resize handler to avoid creating new function on each render
+  const setHdr = React.useCallback(() => {
+    const h = headerRef.current?.offsetHeight || 0;
+    document.documentElement.style.setProperty('--hdr', h + 'px');
+  }, []);
+
   useEffect(() => {
-    const setHdr = () => {
-      const h = headerRef.current?.offsetHeight || 0;
-      document.documentElement.style.setProperty('--hdr', h + 'px');
-    };
     setHdr();
     window.addEventListener('resize', setHdr);
     return () => window.removeEventListener('resize', setHdr);
-  }, []);
+  }, [setHdr]);
 
   // URL ↔ state
   useEffect(() => {
@@ -57,29 +136,58 @@ export default function App() {
     });
   }, [search, selectedTheme, selectedBarrier, selectedPersonas]);
 
-  // SINGLE-SELECTION behaviour
-  const toggleTheme = (id) => {
+  // Performance monitoring on mount (development only)
+  useEffect(() => {
+    if (import.meta.env.DEV) {
+      // Log initial performance metrics after component mounts
+      const timer = setTimeout(() => {
+        console.log('=== PDATF Toolkit Performance Report ===');
+        logWebVitals();
+        logMemoryUsage();
+        checkPerformanceBudget();
+      }, 2000); // Wait 2s for page to fully load
+
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
+  // Register service worker for offline support
+  useEffect(() => {
+    registerServiceWorker({
+      onSuccess: () => console.log('✅ App cached for offline use'),
+      onUpdate: () => console.log('🔄 New version available'),
+      enableInDev: false // Disable in development
+    });
+  }, []);
+
+  // SINGLE-SELECTION behaviour - memoize callbacks to prevent unnecessary re-renders
+  const toggleTheme = React.useCallback((id) => {
     setSelectedTheme((curr) => (curr === id ? null : id));
     setSelectedBarrier(null); // clear barrier when picking a theme
-  };
-  const toggleBarrier = (id, themeId) => {
+  }, []);
+  const toggleBarrier = React.useCallback((id, _themeId) => {
     setSelectedBarrier((curr) => (curr === id ? null : id));
     setSelectedTheme(null); // clear theme when picking a barrier
-  };
-  const togglePersona = (id) => setSelectedPersonas((curr) => (curr.includes(id) ? curr.filter((x) => x !== id) : [...curr, id]));
-  const clearAll = () => { setSearch(""); setSelectedTheme(null); setSelectedBarrier(null); setSelectedPersonas([]); };
+  }, []);
+  const togglePersona = React.useCallback((id) => setSelectedPersonas((curr) => (curr.includes(id) ? curr.filter((x) => x !== id) : [...curr, id])), []);
+  const clearAll = React.useCallback(() => { setSearch(""); setSelectedTheme(null); setSelectedBarrier(null); setSelectedPersonas([]); }, []);
+
+  // Memoize hover handlers to prevent creating new functions on every render
+  const handleMouseEnterTheme = React.useCallback(() => setHoveredLayer('theme'), []);
+  const handleMouseEnterBarrier = React.useCallback(() => setHoveredLayer('barrier'), []);
+  const handleMouseLeave = React.useCallback(() => setHoveredLayer(null), []);
 
   const DATA_RESOURCES = useMemo(() => RESOURCES.map(normalizeResource), []);
   const THEMES = useMemo(() => [...THEMES_RAW].sort((a, b) => (a.order ?? 999) - (b.order ?? 999)), []);
   const BARRIERS = useMemo(() => BARRIERS_RAW.map(b => ({ ...b, themeId: b.themeId || b.categoryId })), []);
 
-  // Base filter (affects counts & ring): search + personas only
-  const baseFilter = (r) => {
+  // Base filter (affects counts & ring): search + personas only - memoize to prevent cascading recalculations
+  const baseFilter = React.useCallback((r) => {
     const q = search.trim().toLowerCase();
     const matchesText = !q || r.title.toLowerCase().includes(q) || r.description.toLowerCase().includes(q) || (r.tags || []).some((t) => t.toLowerCase().includes(q));
     const matchesPersonas = !selectedPersonas.length || r.personas.some((p) => selectedPersonas.includes(p));
     return matchesText && matchesPersonas;
-  };
+  }, [search, selectedPersonas]);
 
   // ---- Build aligned data ----
   const barrierValues = useMemo(() => {
@@ -89,7 +197,7 @@ export default function App() {
       themeId: b.themeId,
       value: DATA_RESOURCES.filter((r) => baseFilter(r) && r.barriers.includes(b.id)).length,
     }));
-  }, [BARRIERS, DATA_RESOURCES, search, selectedPersonas]);
+  }, [BARRIERS, DATA_RESOURCES, baseFilter]);
 
   const barriersByTheme = useMemo(() => {
     const lookup = new Map();
@@ -127,7 +235,7 @@ export default function App() {
         displayCount: uniqueByTheme.get(t.id) || 0,
       };
     });
-  }, [THEMES, barrierValues, DATA_RESOURCES, search, selectedPersonas]);
+  }, [THEMES, barrierValues, DATA_RESOURCES, baseFilter]);
   // Outer ring flattened, in the exact grouped order
   const barrierData = useMemo(() => barriersByTheme.flatMap(g => g.items), [barriersByTheme]);
 
@@ -136,7 +244,9 @@ export default function App() {
 
   // Render theme labels along the arc with optional two lines, upright on both halves of the circle.
   // Uses polyline paths instead of SVG Arc flags to avoid sweep-direction quirks across browsers.
-  const renderInnerThemeLabel = (props) => {
+  // Memoized to prevent recreating function on every render (reduces memory churn)
+  // Currently unused but kept for potential future use
+  const _renderInnerThemeLabel = React.useCallback((props) => {
     const {
       cx, cy, startAngle, endAngle, innerRadius, outerRadius, payload,
     } = props;
@@ -165,7 +275,7 @@ export default function App() {
 
     // Midpoint Y to determine whether slice is on the bottom half visually.
     const midDeg = (sA + eA) / 2;
-    const [mx, my] = toXY(midDeg, (ir + or) / 2);
+    const [_mx, my] = toXY(midDeg, (ir + or) / 2);
     const isBottom = my > cy;
 
     // Build a polyline-like path string from angle a0 → a1 at radius r.
@@ -293,10 +403,11 @@ export default function App() {
         )}
       </g>
     );
-  };
+  }, [themeTotal]);
 
   // Render theme labels just **outside** the outer ring, colour-coded, following the arc.
-  const renderOuterThemeLabel = (props) => {
+  // Memoized to prevent recreating function on every render (reduces memory churn)
+  const renderOuterThemeLabel = React.useCallback((props) => {
     const { cx, cy, startAngle, endAngle, innerRadius, outerRadius, payload } = props;
     if (!themeTotal) return null;
 
@@ -318,7 +429,7 @@ export default function App() {
     };
 
     const midDeg = (sA + eA) / 2;
-    const [mx, my] = toXY(midDeg, (ir + or) / 2);
+    const [_mx2, my] = toXY(midDeg, (ir + or) / 2);
     const isBottom = my > cy;
 
     // place path slightly outside the actual outer ring
@@ -386,7 +497,7 @@ export default function App() {
         </text>
       </g>
     );
-  };
+  }, [themeTotal, selectedTheme, selectedBarrier, BARRIERS, toggleTheme]);
 
   // Results list filter (honour single-selection)
   const filtered = useMemo(() => {
@@ -400,8 +511,8 @@ export default function App() {
     }).sort((a, b) => (b.date || "").localeCompare(a.date || ""));
   }, [DATA_RESOURCES, search, selectedPersonas, selectedTheme, selectedBarrier]);
 
-  // Colours
-  const themeFill = (themeId, highlighted) => highlighted ? (THEME_COLORS[themeId] || "#334155") : lighten(THEME_COLORS[themeId] || "#94a3b8", 0.35);
+  // Colours - memoize themeFill to prevent recreation
+  const themeFill = React.useCallback((themeId, highlighted) => highlighted ? (THEME_COLORS[themeId] || "#334155") : lighten(THEME_COLORS[themeId] || "#94a3b8", 0.35), []);
   const barrierFills = useMemo(() => {
     const map = new Map();
     barriersByTheme.forEach(({ theme, items }) => {
@@ -415,11 +526,11 @@ export default function App() {
     return map;
   }, [barriersByTheme]);
 
-  const selectedThemeLabel = selectedTheme ? (THEMES.find((t) => t.id === selectedTheme) || {}).name : null;
+  const _selectedThemeLabel = selectedTheme ? (THEMES.find((t) => t.id === selectedTheme) || {}).name : null;
   const selectedBarrierLabel = selectedBarrier ? (BARRIERS.find((b) => b.id === selectedBarrier) || {}).name : null;
 
   // selection highlighting for outer ring
-  const isBarrierActive = (b) => {
+  const _isBarrierActive = (b) => {
     if (selectedBarrier) return b.id === selectedBarrier;
     if (selectedTheme) return b.themeId === selectedTheme; // highlight all within theme
     return false;
@@ -523,18 +634,15 @@ export default function App() {
                     className="hidden lg:block"
                   >
                     {themeData.map((d) => (
-                      <Cell
+                      <ThemeCell
                         key={d.id}
-                        className="cursor-pointer"
-                        fill={themeFill(d.id, selectedTheme === d.id)}
-                        opacity={
-                          selectedTheme
-                            ? (selectedTheme === d.id ? 1 : 0.35)
-                            : (selectedBarrier ? 0.35 : 1)
-                        }
-                        onClick={() => toggleTheme(d.id)}
-                        onMouseEnter={() => setHoveredLayer('theme')}
-                        onMouseLeave={() => setHoveredLayer(null)}
+                        data={d}
+                        selectedTheme={selectedTheme}
+                        selectedBarrier={selectedBarrier}
+                        themeFill={themeFill}
+                        toggleTheme={toggleTheme}
+                        handleMouseEnterTheme={handleMouseEnterTheme}
+                        handleMouseLeave={handleMouseLeave}
                       />
                     ))}
                   </Pie>
@@ -574,22 +682,15 @@ export default function App() {
                     strokeWidth={2}
                   >
                     {barrierData.map((d) => (
-                      <Cell
+                      <BarrierCell
                         key={d.id}
-                        className="cursor-pointer"
-                        fill={
-                          selectedBarrier === d.id
-                            ? (THEME_COLORS[d.themeId] || "#334155")
-                            : (barrierFills.get(d.id) || "#e5e7eb")
-                        }
-                        opacity={
-                          selectedBarrier
-                            ? (selectedBarrier === d.id ? 1 : 0.3)
-                            : (selectedTheme ? (d.themeId === selectedTheme ? 1 : 0.3) : 1)
-                        }
-                        onClick={() => toggleBarrier(d.id, d.themeId)}
-                        onMouseEnter={() => setHoveredLayer('barrier')}
-                        onMouseLeave={() => setHoveredLayer(null)}
+                        data={d}
+                        selectedBarrier={selectedBarrier}
+                        selectedTheme={selectedTheme}
+                        barrierFills={barrierFills}
+                        toggleBarrier={toggleBarrier}
+                        handleMouseEnterBarrier={handleMouseEnterBarrier}
+                        handleMouseLeave={handleMouseLeave}
                       />
                     ))}
                   </Pie>
@@ -630,32 +731,31 @@ export default function App() {
         <section className="lg:col-span-4 lg:row-span-2 flex min-h-0 lg:h-full">
           <div className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4 w-full flex flex-col h-full">
             <div className="text-sm mb-2 shrink-0 sticky top-0 bg-white z-10 border-b border-slate-100 py-2"><span className="font-medium">{filtered.length}</span> result{filtered.length === 1 ? "" : "s"}</div>
-            <div className="flex-1 min-h-0 lg:overflow-y-auto overflow-visible pr-1 space-y-3">
-              {filtered.map((r) => (
-                <article key={r.id} className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4">
-                  <h3 className="font-medium leading-snug">{r.title}</h3>
-                  <p className="text-xs text-slate-600 mt-1 line-clamp-3">{r.description}</p>
-                  <div className="mt-2 flex flex-wrap gap-1 text-xs">
-                    {(r.personas || []).map((p) => <span key={p} className="inline-flex items-center rounded-full px-2.5 py-0.5 bg-slate-100 text-slate-700">{p}</span>)}
+            <div className="flex-1 min-h-0 pr-1">
+              {filtered.length > 0 ? (
+                // Use virtualization for large lists (>50 items) for optimal performance
+                filtered.length > 50 ? (
+                  <VirtualizedResourceList
+                    resources={filtered}
+                    BARRIERS={BARRIERS}
+                    THEME_COLORS={THEME_COLORS}
+                    enableVirtualization={true}
+                  />
+                ) : (
+                  // Small lists render normally
+                  <div className="lg:overflow-y-auto overflow-visible space-y-3">
+                    {filtered.map((r) => (
+                      <ResourceItem
+                        key={r.id}
+                        resource={r}
+                        BARRIERS={BARRIERS}
+                        THEME_COLORS={THEME_COLORS}
+                        lighten={lighten}
+                      />
+                    ))}
                   </div>
-                  <div className="mt-2 flex flex-wrap gap-1 text-xs">
-                    {(r.barriers || []).map((b) => {
-                      const barrier = BARRIERS.find(x => x.id === b);
-                      const label = barrier?.name || b;
-                      const color = barrier ? lighten(THEME_COLORS[barrier.themeId] || "#64748b", 0.6) : "#e5e7eb";
-                      return (
-                        <span key={b} style={{ background: color }} className="inline-flex items-center rounded-full border border-slate-300 px-2 py-0.5">
-                          {label}
-                        </span>
-                      );
-                    })}
-                  </div>
-                  <a className="mt-3 inline-flex text-sm rounded-md px-3 py-1.5 bg-slate-900 text-white hover:bg-slate-800" href={r.url} target="_blank" rel="noreferrer">
-                    Open resource
-                  </a>
-                </article>
-              ))}
-              {!filtered.length && (
+                )
+              ) : (
                 <div className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4 text-xs text-slate-600">
                   No resources match your filters. Clear some filters or search terms.
                 </div>
@@ -664,6 +764,53 @@ export default function App() {
           </div>
         </section>
       </main>
+
+      {/* Footer with disclaimer link */}
+      <footer className="py-2 px-4 text-center">
+        <button
+          onClick={() => setShowDisclaimer(true)}
+          className="text-xs text-slate-500 hover:text-slate-700 underline"
+        >
+          Disclaimer
+        </button>
+      </footer>
+
+      {/* Disclaimer Modal */}
+      {showDisclaimer && (
+        <div
+          className="fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-[100]"
+          onClick={() => setShowDisclaimer(false)}
+        >
+          <div
+            className="bg-white rounded-2xl shadow-xl max-w-2xl w-full p-6 max-h-[80vh] overflow-y-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex justify-between items-start mb-4">
+              <h2 className="text-xl font-semibold text-slate-900">Disclaimer</h2>
+              <button
+                onClick={() => setShowDisclaimer(false)}
+                className="text-slate-400 hover:text-slate-600 text-2xl leading-none"
+                aria-label="Close"
+              >
+                ×
+              </button>
+            </div>
+            <div className="text-sm text-slate-700 leading-relaxed space-y-3">
+              <p>
+                This toolkit is provided for general guidance only and does not constitute legal or professional advice. Use of the PDATF Toolkit does not create any legal obligations or guarantees of compliance, approval, or funding. Users are responsible for ensuring their practices meet applicable laws, regulations, and contractual requirements. No liability is accepted for any loss or damage resulting from its use. The content may be updated periodically. Users should refer to the latest version and seek independent advice where needed.
+              </p>
+            </div>
+            <div className="mt-6 text-right">
+              <button
+                onClick={() => setShowDisclaimer(false)}
+                className="px-4 py-2 bg-slate-900 text-white text-sm rounded-lg hover:bg-slate-800"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 } 
