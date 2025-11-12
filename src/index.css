@@ -13,3 +13,19 @@
 /* Recharts helpers */
 /* Make legend ignore pointer events so it doesn't block clicks */
 .recharts-legend-wrapper { pointer-events: none; }
+
+/* Remove focus outline from Recharts elements */
+.recharts-wrapper,
+.recharts-surface,
+svg.recharts-surface,
+.recharts-wrapper svg,
+.recharts-wrapper *:focus,
+.recharts-surface *:focus {
+  outline: none !important;
+}
+
+/* Remove any default browser focus styles from chart containers */
+div[class*="chart"] *:focus,
+section:has(.recharts-wrapper) *:focus {
+  outline: none !important;
+}
