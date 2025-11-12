@@ -573,8 +573,8 @@ export default function App() {
             </div>
           </div>
 
-          <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            <div className="relative w-full h-full">
+          <div style={{ width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', outline: 'none' }}>
+            <div className="relative w-full h-full" style={{ outline: 'none' }}>
               {/* Gradient overlay: keep as first absolute child */}
               <div
                 className="absolute inset-0 rounded-2xl pointer-events-none"
@@ -583,8 +583,8 @@ export default function App() {
                     'radial-gradient(90% 90% at 50% 55%, rgba(2,6,23,0.035) 0%, rgba(2,6,23,0.02) 40%, transparent 70%)'
                 }}
               />
-              <ResponsiveContainer width="100%" height="100%">
-                <PieChart margin={{ top: 0, right: 8, bottom: 0, left: 8 }}>
+              <ResponsiveContainer width="100%" height="100%" style={{ outline: 'none' }}>
+                <PieChart margin={{ top: 0, right: 8, bottom: 0, left: 8 }} style={{ outline: 'none' }}>
                   {/* Inner ring: themes (exact sum of its barriers) */}
                   <Pie
                     data={themeData}
@@ -608,6 +608,7 @@ export default function App() {
                       <Cell
                         key={d.id}
                         className="cursor-pointer"
+                        style={{ outline: 'none' }}
                         fill={themeFill(d.id, selectedTheme === d.id)}
                         opacity={
                           selectedTheme
@@ -659,6 +660,7 @@ export default function App() {
                       <Cell
                         key={d.id}
                         className="cursor-pointer"
+                        style={{ outline: 'none' }}
                         fill={
                           selectedBarrier === d.id
                             ? (THEME_COLORS[d.themeId] || "#334155")
