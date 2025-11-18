@@ -62,6 +62,7 @@ export default function App() {
   const [selectedPersonas, setSelectedPersonas] = useState([]);
   const [hoveredLayer, setHoveredLayer] = useState(null); // 'theme' | 'barrier' | null
   const [showDisclaimer, setShowDisclaimer] = useState(false);
+  const [isDesktop, setIsDesktop] = useState(() => (typeof window !== 'undefined' ? window.innerWidth >= 1024 : false));
 
   // Header ref and dynamic height effect
   const headerRef = React.useRef(null);
@@ -77,6 +78,25 @@ export default function App() {
     window.addEventListener('resize', setHdr);
     return () => window.removeEventListener('resize', setHdr);
   }, [setHdr]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const media = window.matchMedia('(min-width: 1024px)');
+    const updateMatch = () => setIsDesktop(media.matches);
+    updateMatch();
+    if (media.addEventListener) {
+      media.addEventListener('change', updateMatch);
+    } else {
+      media.addListener(updateMatch);
+    }
+    return () => {
+      if (media.removeEventListener) {
+        media.removeEventListener('change', updateMatch);
+      } else {
+        media.removeListener(updateMatch);
+      }
+    };
+  }, []);
 
   // URL ↔ state
   useEffect(() => {
@@ -506,9 +526,11 @@ export default function App() {
     if (selectedTheme) return b.themeId === selectedTheme; // highlight all within theme
     return false;
   };
+  const layoutHeight = 'calc(100svh - var(--hdr))';
+  const mainStyle = isDesktop ? { height: layoutHeight } : { minHeight: layoutHeight };
 
   return (
-    <div className="min-h-screen overflow-hidden">
+    <div className="min-h-screen overflow-x-hidden">
       {/* Small header with just title */}
       <header ref={headerRef} className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur text-white py-2 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-4 text-center">
@@ -519,7 +541,7 @@ export default function App() {
       {/* Main content */}
       <main
         className="max-w-7xl mx-auto px-4 py-2 grid lg:grid-cols-12 lg:grid-rows-[auto,1fr] gap-2"
-        style={{ height: 'calc(100svh - var(--hdr))' }}
+        style={mainStyle}
       >
         {/* Filters card (search + personas) spans above ring */}
         <section className="lg:col-span-8 lg:row-start-1 bg-white border border-slate-200 rounded-3xl shadow-md/10 p-2">
@@ -560,7 +582,7 @@ export default function App() {
         </section>
 
         {/* Center: ring */}
-        <section className="lg:col-span-8 lg:row-start-2 bg-white border border-slate-200 rounded-3xl shadow-md/10 p-2 pb-0 h-[52vh] lg:h-full min-h-0 flex flex-col">
+        <section className="lg:col-span-8 lg:row-start-2 bg-white border border-slate-200 rounded-3xl shadow-md/10 p-2 pb-0 h-[44vh] sm:h-[48vh] lg:h-full min-h-0 flex flex-col">
           <div className="flex items-center justify-between mb-2 text-xs text-slate-600 h-5">
             <div>
               <span className="hidden lg:inline">Click a theme (inner ring) or a barrier (outer ring) to filter.</span>
@@ -711,22 +733,23 @@ export default function App() {
         </section>
 
         {/* Right: results */}
-        <section className="lg:col-span-4 lg:row-span-2 flex min-h-0 lg:h-full">
-          <div className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4 w-full flex flex-col h-full">
+        <section className="lg:col-span-4 lg:row-span-2 flex min-h-[40vh] lg:min-h-0 lg:h-full">
+          <div className="bg-white border border-slate-200 rounded-3xl shadow-md/10 p-4 w-full flex flex-col h-full min-h-[40vh] lg:min-h-0">
             <div className="text-sm mb-2 shrink-0 sticky top-0 bg-white z-10 border-b border-slate-100 py-2"><span className="font-medium">{filtered.length}</span> result{filtered.length === 1 ? "" : "s"}</div>
-            <div className="flex-1 min-h-0 pr-1">
+            <div className="flex-1 min-h-0 pr-1 overflow-hidden">
               {filtered.length > 0 ? (
                 // Use virtualization for large lists (>50 items) for optimal performance
-                filtered.length > 50 ? (
+                filtered.length > 50 && isDesktop ? (
                   <VirtualizedResourceList
                     resources={filtered}
                     BARRIERS={BARRIERS}
                     THEME_COLORS={THEME_COLORS}
-                    enableVirtualization={true}
+                    enableVirtualization={isDesktop}
+                    height="100%"
                   />
                 ) : (
                   // Small lists render normally
-                  <div className="lg:overflow-y-auto overflow-visible space-y-3">
+                  <div className="overflow-y-auto h-full space-y-3 pr-1 pb-2">
                     {filtered.map((r) => (
                       <ResourceItem
                         key={r.id}
@@ -749,7 +772,7 @@ export default function App() {
       </main>
 
       {/* Footer with disclaimer link */}
-      <footer className="py-2 px-4 text-center">
+      <footer className="py-3 px-4 text-center mt-6 lg:mt-2">
         <button
           onClick={() => setShowDisclaimer(true)}
           className="text-xs text-slate-500 hover:text-slate-700 underline"
